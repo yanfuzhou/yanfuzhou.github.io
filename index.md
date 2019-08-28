@@ -2,6 +2,16 @@
 layout: yanfu
 ---
 
+# [](#header-1)Introduction
+
+Using hexagonal grids to fill a [2d plane](https://www.mathsisfun.com/geometry/plane.html) has three major advantages over using square/circle/octagon grids: 
+
+1. Hexagonal grids could fill a 2d plane without creating gaps or overlaps between each grid
+2. Hexagonal grids requires 13.4% less sampling lidar points than square grids for the interpolation process
+3. For building drainage networks on an elevation model, hexagonal grids could maintain streamflow directon better than square grids
+
+In order to create the **Hexagonal Elevation Model (HEM)**, the Lidar Point Cloud (LPC) data hosted on the USGS's [ftp server](ftp://rockyftp.cr.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects) are chosen as raw data inputs.
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
