@@ -1,5 +1,5 @@
-title: DIGITAL HEXAGONAL ELEVATION MODEL (DHEM)
-description: DHEM is a project for producing hexagonal based DEM from LIDAR.
+title: HEXAGONAL ELEVATION MODEL (HEM)
+description: HEM is a project of creating hexagonal DEM from LIDAR.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
