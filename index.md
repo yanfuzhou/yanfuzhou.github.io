@@ -10,7 +10,7 @@ Using hexagonal grid to fill a [2d plane](https://www.mathsisfun.com/geometry/pl
 ![](./images/s1_adv_01.png)
 2. For the interpolation process, hexagonal grid desires 13.4% less sampling points than square grid requires  
 ![](./images/s1_adv_02.png)
-3. For building drainage networks on an elevation model, hexagonal grid could maintain streamflow directon better than square grid
+3. For building drainage networks on an elevation model, hexagonal grid could maintain streamflow directon better than square grid (See paper: [De Sousa, 2006](./pdfs/2006_Assessing_the_accuracy_of_hexagonal_versus_square_tilled_grids_in_preserving_DEM_surface_flow_directions.pdf))
 
 In order to create the **Hexagonal Digital Surface Model (HDSM)**, the Lidar Point Cloud (LPC) data hosted on the USGS's [ftp server](ftp://rockyftp.cr.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects) are chosen as raw data inputs.
 
