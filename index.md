@@ -22,6 +22,8 @@ Using hexagonal grid to fill a [2d plane](https://www.mathsisfun.com/geometry/pl
 (See paper: [De Sousa, 2006](./pdfs/2006_Assessing_the_accuracy_of_hexagonal_versus_square_tilled_grids_in_preserving_DEM_surface_flow_directions.pdf))
 
 # [](#header-1)Experimental locations
+
+[Enlarge](./images/s2_aoi_01.png)
 ![](./images/s2_aoi_01.png)
 
 | Location | Latitude  | Longitude  |
@@ -33,7 +35,10 @@ Using hexagonal grid to fill a [2d plane](https://www.mathsisfun.com/geometry/pl
 | No.5     | 38.618981 | -90.198371 |
 
 ## [](#header-2)Result comparison
+
+[Enlarge](./images/s2_aoi_01_hexagon_vs_grid.png)
 ![](./images/s2_aoi_01_hexagon_vs_grid.png)
+
 (i) upper left - top view of the experimental area HDSM 
 (ii) bottom left - 3D view of the experimental area HDSM, location 1,2,3 are high-voltage line towers, 
 location 4,5 are building roof structures
