@@ -7,7 +7,7 @@ layout: yanfu
 Using hexagonal grid to fill a [2d plane](https://www.mathsisfun.com/geometry/plane.html) has three major advantages over using square/circle/octagon grid: 
 
 1. Hexagonal grid could fill a 2d plane without creating gaps or overlaps
-![](images/s1_adv_01.png)
+![](./images/s1_adv_01.png)
 2. For the interpolation process, hexagonal grid desires 13.4% less sampling points than square grid requires
 3. For building drainage networks on an elevation model, hexagonal grid could maintain streamflow directon better than square grid
 
