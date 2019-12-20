@@ -6,9 +6,10 @@ layout: yanfu
 
 Using hexagonal grid to fill a [2d plane](https://www.mathsisfun.com/geometry/plane.html) has three major advantages over using square/circle/octagon grid: 
 
-1. Hexagonal grid could fill a 2d plane without creating gaps or overlaps
+1. Hexagonal grid could fill a 2d plane without creating gaps or overlaps  
 ![](./images/s1_adv_01.png)
-2. For the interpolation process, hexagonal grid desires 13.4% less sampling points than square grid requires
+2. For the interpolation process, hexagonal grid desires 13.4% less sampling points than square grid requires  
+![](./images/s1_adv_02.png)
 3. For building drainage networks on an elevation model, hexagonal grid could maintain streamflow directon better than square grid
 
 In order to create the **Hexagonal Digital Surface Model (HDSM)**, the Lidar Point Cloud (LPC) data hosted on the USGS's [ftp server](ftp://rockyftp.cr.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects) are chosen as raw data inputs.
