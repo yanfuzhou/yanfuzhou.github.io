@@ -1,5 +1,5 @@
-title: HEXAGONAL ELEVATION MODEL
-description: The hexgonal grid elevation model.
+title: HEXAGONAL DIGITAL SURFACE MODEL
+description: using icosahedral-based geodesic discrete global grid to build hexagonal digital surface model (HDSM)
 show_downloads: False
 google_analytics:
 theme: jekyll-theme-hacker
