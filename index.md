@@ -8,7 +8,7 @@ Lidar Point Cloud (LPC) data is a popular source for building high precision and
 digital elevation model/digital surface model (DEM/DSM). Due to current limitations of image data structure and image rendering architecture, 
 not many projects have done massive production of high resolution and high precision **Hexagonal Digital Surface Model (HDSM)**. 
 This project targeted at above challenges and tried to create massive production of HDSM by using 
-[USGS's public LIDAR dataset](ftp://rockyftp.cr.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects).
+[USGS's public LIDAR dataset](https://www.sciencebase.gov/catalog/item/4f70ab64e4b058caae3f8def).
 
 # [](#header-1)Why using hexagonal grid?
 
