@@ -10,7 +10,7 @@ not many projects have done massive production of high resolution and high preci
 This project targeted at above challenges and tried to create massive production of HDSM by using 
 [USGS's public LIDAR dataset](https://www.sciencebase.gov/catalog/item/4f70ab64e4b058caae3f8def).
 
-## [](#header-3)Why using hexagonal grid?
+## [](#header-2)Why using hexagonal grid?
 
 Using hexagonal grid to fill a [2d plane](https://www.mathsisfun.com/geometry/plane.html) has three major advantages over using square/circle/octagon grid: 
 
@@ -21,7 +21,14 @@ Using hexagonal grid to fill a [2d plane](https://www.mathsisfun.com/geometry/pl
 3. For building drainage networks on an elevation model, hexagonal grid could maintain streamflow direction better than square grid 
 (See paper: [De Sousa, 2006](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.485.7483&rep=rep1&type=pdf))
 
-# [](#header-1)Experiment Locations
+# [](#header-1)Project Details
+
+In order to test my workflow and strategy, and before I do massive produce of HDSM dataset at country level, 
+an experiment is take out in St Louis, MO. The project will continue add more coverage area and adjust its workflow.
+The experiment result showed a significant improvement.
+
+
+## [](#header-2)Experiment Locations
 
 [Enlarge](./images/s2_aoi_01.png)
 ![](./images/s2_aoi_01.png)
@@ -34,7 +41,7 @@ Using hexagonal grid to fill a [2d plane](https://www.mathsisfun.com/geometry/pl
 | No.4     | 38.620165 | -90.200145 |
 | No.5     | 38.618981 | -90.198371 |
 
-## [](#header-3)Result comparison and analysis
+## [](#header-2)Result comparison and analysis
 
 [Enlarge](./images/s2_aoi_01_hexagon_vs_grid.png) 
 ![](./images/s2_aoi_01_hexagon_vs_grid.png)
