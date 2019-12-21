@@ -19,7 +19,7 @@ Using hexagonal grid to fill a [2d plane](https://www.mathsisfun.com/geometry/pl
 2. For the interpolation process, hexagonal grid desires 13.4% less sampling points than square grid requires  
 ![](./images/s1_adv_02.png)
 3. For building drainage networks on an elevation model, hexagonal grid could maintain streamflow direction better than square grid 
-(See paper: [De Sousa, 2006](./pdfs/2006_Assessing_the_accuracy_of_hexagonal_versus_square_tilled_grids_in_preserving_DEM_surface_flow_directions.pdf))
+(See paper: [De Sousa, 2006](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.485.7483&rep=rep1&type=pdf))
 
 # [](#header-1)Experimental locations
 
