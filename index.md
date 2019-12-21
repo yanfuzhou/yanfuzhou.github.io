@@ -4,8 +4,8 @@ layout: yanfu
 
 # [](#header-1)Project Background
 
-Lidar Point Cloud (LPC) data is a popular source for building high precision and high resolution (>= 1/9 arc-second approximately 3m) 
-digital elevation model/digital surface model (DEM/DSM). Due to current limitations of image data structure and image rendering architecture, 
+[Lidar Point Cloud (LPC)](https://oceanservice.noaa.gov/facts/lidar.html) data is a popular source for building high precision and high resolution (>= 1/9 arc-second approximately 3m) 
+[digital elevation model/digital surface model (DEM/DSM)](http://www.gisresources.com/confused-dem-dtm-dsm/). Due to current limitations of image data structure and image rendering architecture, 
 not many projects have done massive production of high resolution and high precision **Hexagonal Digital Surface Model (HDSM)**. 
 This project targeted at above challenges and tried to create massive production of HDSM by using 
 [USGS's public LIDAR dataset](https://www.sciencebase.gov/catalog/item/4f70ab64e4b058caae3f8def).
@@ -15,11 +15,17 @@ This project targeted at above challenges and tried to create massive production
 Using hexagonal grid to fill a [2d plane](https://www.mathsisfun.com/geometry/plane.html) has three major advantages over using square/circle/octagon grid: 
 
 1. Hexagonal grid could fill a 2d plane without creating gaps or overlaps  
+
 ![](./images/s1_adv_01.png)
+
 2. For the interpolation process, hexagonal grid desires 13.4% less sampling points than square grid requires  
+
 ![](./images/s1_adv_02.png)
+
 3. For building drainage networks on an elevation model, hexagonal grid could maintain streamflow direction better than square grid 
-(See paper: [De Sousa, 2006](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.485.7483&rep=rep1&type=pdf))
+(See paper: [De Sousa, 2006](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.485.7483&rep=rep1&type=pdf))  
+
+![](./images/s1_adv_03.png)
 
 # [](#header-1)Project Details
 
