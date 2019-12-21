@@ -23,7 +23,7 @@ Using hexagonal grid to fill a [2d plane](https://www.mathsisfun.com/geometry/pl
 
 # [](#header-1)Project Details
 
-In order to test my workflow and strategy, and before I do massive produce of HDSM dataset at country level, 
+In order to test our workflow and strategy, and before we do massive produce of HDSM dataset at country level, 
 an experiment is take out in St Louis, MO. The project will continue add more coverage area and adjust its workflow.
 The experiment result showed a significant improvement.
 
