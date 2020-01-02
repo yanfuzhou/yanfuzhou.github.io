@@ -27,6 +27,8 @@ Using hexagonal grid to fill a 2d plane has three major advantages over using sq
 
 ![](./images/s1_adv_03.png)
 
+*For more detailed information, please check [Why hexagons?](https://pro.arcgis.com/en/pro-app/tool-reference/spatial-statistics/h-whyhexagons.htm)
+
 # [](#header-1)Project Details
 
 In order to test our workflow and strategy, and before we do massive produce of HDSM dataset at country level, 
