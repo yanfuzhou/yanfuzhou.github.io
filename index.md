@@ -70,3 +70,10 @@ Currently HDSM dataset only covers some locations in Missouri and Arkansas, whil
 [Enlarge](./images/s2_coverage_01.png)
 
 ![](./images/s2_coverage_01.png) 
+
+# Contact Us
+
+| Name  | Email  |
+|-----------|------------|
+| Yanfu Zhou | yanfu.zhou@outlook.com |
+| Ningning Zhang | lucy.nnzhang@gmail.com |
