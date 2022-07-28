@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Protein Network</title>
+    <link rel="stylesheet" type="text/css" href="./lib/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="./lib/css/index.css">
+    <script type="text/javascript" src="./lib/js/d3.v3.min.js"></script>
+    <script type="text/javascript" src="./lib/js/index.js"></script>
+</head>
+<body>
+    <div id="main-content">
+        <div id="force"></div>
+        <div id="side"></div>
+        <div id="total"></div>
+        <label><input id="mySlider" type="range" min="0" max="1000" value="0"></label>
+        <input type="text" id="myInput" placeholder="Search for proteins...">
+            <ul id="myUL"></ul>
+        <div id="drop">Score >=
+            <select>
+                <option value="a">0.50</option>
+                <option value="b">0.45</option>
+                <option value="c">0.40</option>
+                <option value="d">0.35</option>
+                <option value="e">0.30</option>
+            </select>
+        </div>
+        <div id="neighbors">
+            <table id="query">
+                <tr>
+                    <th>Protein</th>
+                    <th>Relation</th>
+                    <th>Go Term</th>
+                    <th>Bin Name</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
