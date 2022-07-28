@@ -70,7 +70,7 @@ location 4,5 are building roof structures
 
 ## [](#header-3)Dataset covered area
 
-Currently HDSM dataset only covers some locations in Missouri and Arkansas, while we'll add as many coverage as we can in 2020. 
+Currently HDSM dataset only covers some locations in Missouri and Arkansas, while we'll add as many coverage as we can in the future. 
 
 [Enlarge](../images/s2_coverage_01.png)
 
