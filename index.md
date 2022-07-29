@@ -8,8 +8,8 @@ layout: yanfu
 ## [](#header-2) H3 Hexagon
   - [A data science tool for generate hexagonal DEM](docs/AwsLidarH3.md)
   - [Why need to use hexagonal digital surface model?](docs/WhyUseHexagon.md)
-  - [H3 hexagon visualization on Google Earth pro](GoogleEarthH3Vis.md)
-  - [Mapping H3 in Web Mercator projection](H3Distortions.md)
+  - [H3 hexagon visualization on Google Earth pro](docs/GoogleEarthH3Vis.md)
+  - [Mapping H3 in Web Mercator projection](docs/H3Distortions.md)
 
 ---
   
@@ -40,7 +40,7 @@ layout: yanfu
 ---
   
 ## [](#header-2) Cloud Tricky Things
-  - [Programmatically setup VNC password](VNCansible.md)
+  - [Programmatically setup VNC password](docs/VNCansible.md)
   - Passing local environment variables to kubernetes
 
 ---
