@@ -44,8 +44,8 @@ layout: yanfu
 ---
 
 ## [](#header-2) Software Stack
-  - How to run Geomesa on Macbook Pro?
-  - Access GeoTrellis image server
+  - How to run Geomesa and its dependencies in one container?
+  - Access GeoTrellis image server and dynamic tile stitching
   - Dockerize Geoserver with GDAL plugin
 
 ---
