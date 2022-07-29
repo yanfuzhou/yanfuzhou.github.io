@@ -20,6 +20,29 @@ layout: yanfu
 
 ---
   
+## [](#header-2) Image Stitching
+  - [Quadrilateral Transformation](docs/QuadrilateralTransformation.md)
+  - [Direct georeferencing UAV images](docs/UavDirectGeoreferencing.md)
+
+---
+
+## [](#header-2) Machine Learning
+  - Tensorflow development with GPU
+
+---
+
+## [](#header-2) Data Visualization
+  - [A data science tool for grouping proteins in different pathways](docs/ProteomicsGroupingByWeight.md)
+  - [An Integrated Network of Scientific Information & GeoHydrologic Tools](https://nednr.nebraska.gov/insight/)
+
+---
+
+  
+## [](#header-2) Linux Hardware
+  - [A budget build eGPU on Linux for Tensorflow, PyTorch development](docs/LinuxGPU.md)
+
+---
+
 ## [](#header-2) Software Stack
   - How to run Geomesa on Macbook Pro?
   - Access GeoTrellis image server
@@ -27,28 +50,6 @@ layout: yanfu
 
 ---
   
-## [](#header-2) Image Stitching
-  - [Quadrilateral Transformation](docs/QuadrilateralTransformation.md)
-  - [Direct georeferencing UAV images](docs/UavDirectGeoreferencing.md)
-
----
-  
-## [](#header-2) Data Visualization
-  - [A data science tool for grouping proteins in different pathways](docs/ProteomicsGroupingByWeight.md)
-  - [An Integrated Network of Scientific Information & GeoHydrologic Tools](https://nednr.nebraska.gov/insight/)
-
----
-  
-## [](#header-2) Cloud Tricky Things
+## [](#header-2) Tricky Things
   - [Programmatically setup VNC password](docs/VNCansible.md)
   - Passing local environment variables to kubernetes
-
----
-  
-## [](#header-2) Machine Learning
-  - Tensorflow development with GPU
-
----
-  
-## [](#header-2) Linux Hardware
-  - [A budget build eGPU on Linux for Tensorflow, PyTorch development](docs/LinuxGPU.md)
