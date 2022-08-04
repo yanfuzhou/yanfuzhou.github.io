@@ -44,7 +44,7 @@ layout: yanfu
 ---
 
 ## [](#header-2) Software Stack
-  - How to run Geomesa and its dependencies in one container?
+  - [Dockerized GeoServer with GDAL plugin and Geomesa datastore](docs/Geo)
   - Access GeoTrellis image server and dynamic tile stitching
   - Dockerize Geoserver with GDAL plugin
 
