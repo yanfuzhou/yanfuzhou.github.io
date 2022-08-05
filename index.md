@@ -52,4 +52,4 @@ layout: yanfu
   
 ## [](#header-2) Tricky Things
   - [Programmatically setup VNC password](docs/VNCansible.md)
-  - Passing local environment variables to kubernetes
+  - [Passing local environment variables to kubernetes](docs/AflaskApp.md)
