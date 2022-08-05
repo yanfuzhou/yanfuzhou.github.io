@@ -10,7 +10,7 @@ Dockerfile of GeoServer with GDAL and other extensions + GeoMesa Accumulo full b
 
 ## [](#header-2)Dependencies
 
-`PostgresSQL 9.6, Hadoop 2.8.4, Accumulo 1.9.2, GeoMesa 1.3.5, GDAL 2.2.4, Tomcat 8.5.38 and GeoServer 2.11.3`
+[PostgresSQL 9.6](https://www.postgresql.org/), [Hadoop 2.8.4](https://hadoop.apache.org/), [Accumulo 1.9.2](https://accumulo.apache.org/), [GeoMesa 1.3.5](https://www.geomesa.org/), [GDAL 2.2.4](https://gdal.org/), [Tomcat 8.5.38](https://tomcat.apache.org/) and [GeoServer 2.11.3](https://geoserver.org/)
 
 ## [](#header-2)Requirements
 

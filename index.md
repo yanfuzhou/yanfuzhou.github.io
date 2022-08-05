@@ -46,7 +46,7 @@ layout: yanfu
 ## [](#header-2) Software Stack
   - [Dockerized GeoServer with GDAL plugin and Geomesa datastore](docs/GeomesaMac.md)
   - Access GeoTrellis image server and dynamic tile stitching
-  - Dockerize Geoserver with GDAL plugin
+  - [Dockerize Geoserver with GDAL plugin](docs/GeoServer.md)
 
 ---
   
