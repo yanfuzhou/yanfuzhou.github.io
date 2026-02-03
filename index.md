@@ -26,8 +26,17 @@ layout: yanfu
 
 ---
 
-## [](#header-2) Machine Learning
-  - Tensorflow development with GPU
+## [](#header-2) Miscellaneous Geospatial Related Demos
+  - [Online Viewshed App (3D trajectory analysis) - YouTube Demo](https://www.youtube.com/watch?v=OkvwTfUE9yc)
+  - [Map Visualization Using GeoServer and OpenLayers - YouTube Demo](https://www.youtube.com/watch?v=bAyy-3kzrWs)
+  - [LIDAR Data Visualization Tool - YouTube Demo](https://www.youtube.com/watch?v=-3u1CQIp5Hw)
+  - [A Mobile GIS App By AngularJS - YouTube Demo](https://www.youtube.com/watch?v=FDTTBfp-4wE)
+  - [Map Publishing on GeoServer - YouTube Demo](https://www.youtube.com/watch?v=GUE5KSlLXWs)
+  - [How to Add BaseMap in QGIS - YouTube Demo](https://www.youtube.com/watch?v=4JESmOrHq5M)
+  - [School Lab Project: Volunteered Geographic Information(backend:ArcGIS Server) - YouTube Demo](https://www.youtube.com/watch?v=IKSWJbKdrSA)
+  - [School Lab Project: A Mobile GIS App For Environmental Data Collection - YouTube Demo](https://youtube.com/shorts/Gt--0rIEpqg?si=ea1OCwAmG3g33REO)
+  - [School Lab Project: Cornhusker Corridor LiNK to LNK Plan 2013](https://www.youtube.com/watch?v=8Mej2ZBo0wM)
+  - [P.E.A.N Stack - YouTube Demo](https://www.youtube.com/watch?v=2cR4JLT3pno)
 
 ---
 
@@ -53,3 +62,9 @@ layout: yanfu
 ## [](#header-2) Tricky Things
   - [Programmatically setup VNC password](docs/VNCansible.md)
   - [Passing local environment variables to kubernetes](docs/AflaskApp.md)
+
+---
+
+## [](#header-2) Machine Learning
+  - Tensorflow development with GPU
+
