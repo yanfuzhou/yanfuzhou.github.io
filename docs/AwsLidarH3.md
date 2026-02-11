@@ -20,7 +20,7 @@ $ docker pull yzhou16/aws-lidar-h3
 Then you can check its command options like below:
 
 ```bash
-$ docker run --rm aws-lidar-h3 /aws-lidar-h3/aws-lidar-h3.py -h
+$ docker run --rm yzhou16/aws-lidar-h3 /aws-lidar-h3/aws-lidar-h3.py -h
 usage: aws-lidar-h3.py [-h] -b BOUNDS [BOUNDS ...]
                        [-usgs USGS_ENTWINE_BOUNDARIES_URL] [-s3 LIDAR_S3]
                        [-n19] [-r H3_RES] [-be] [-s] [-c] [-i]
@@ -106,7 +106,7 @@ For producing a hexagonal DEM at resolution 14 for the Pentagon bounding box are
 
 ```bash
 $ docker run --rm \
-	-v ~/Desktop/output:/aws-lidar-h3/output aws-lidar-h3 /aws-lidar-h3/aws-lidar-h3.py \
+	-v ~/Desktop/output:/aws-lidar-h3/output yzhou16/aws-lidar-h3 /aws-lidar-h3/aws-lidar-h3.py \
 	-b -77.060466 38.866578 -77.051325 38.874446 \
 	-i -f the_pentagon
 ```
@@ -123,7 +123,7 @@ For producing a hexagonal DEM at resolution 14 and a 1/9th Arc-second DEM for th
 
 ```bash
 $ docker run --rm \
-	-v ~/Desktop/output:/aws-lidar-h3/output aws-lidar-h3 /aws-lidar-h3/aws-lidar-h3.py \
+	-v ~/Desktop/output:/aws-lidar-h3/output yzhou16/aws-lidar-h3 /aws-lidar-h3/aws-lidar-h3.py \
 	-b -77.060466 38.866578 -77.051325 38.874446 \
 	-n19 -i -f the_pentagon
 ```
@@ -135,7 +135,7 @@ Sometimes for hydrology analysis, we prefer to use bare earth DEM with elevation
 
 ```bash
 $ docker run --rm \
-	-v ~/Desktop/output:/aws-lidar-h3/output aws-lidar-h3 /aws-lidar-h3/aws-lidar-h3.py \
+	-v ~/Desktop/output:/aws-lidar-h3/output yzhou16/aws-lidar-h3 /aws-lidar-h3/aws-lidar-h3.py \
 	-b -77.060466 38.866578 -77.051325 38.874446 \
 	-be -n19 -s -i -f the_pentagon
 ```
@@ -155,7 +155,7 @@ The AWS LIDAR H3 can also export the hexagonal DEM to a csv file. Either with a 
 
 ```bash
 $ docker run --rm \
-	-v ~/Desktop/output:/aws-lidar-h3/output aws-lidar-h3 /aws-lidar-h3/aws-lidar-h3.py \
+	-v ~/Desktop/output:/aws-lidar-h3/output yzhou16/aws-lidar-h3 /aws-lidar-h3/aws-lidar-h3.py \
 	-b -77.060466 38.866578 -77.051325 38.874446 \
 	-c -f the_pentagon
 ```
@@ -163,7 +163,7 @@ $ docker run --rm \
 
 ```bash
 $ docker run --rm \
-	-v ~/Desktop/output:/aws-lidar-h3/output aws-lidar-h3 /aws-lidar-h3/aws-lidar-h3.py \
+	-v ~/Desktop/output:/aws-lidar-h3/output yzhou16/aws-lidar-h3 /aws-lidar-h3/aws-lidar-h3.py \
 	-b -77.060466 38.866578 -77.051325 38.874446 \
 	-f the_pentagon
 ```
