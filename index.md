@@ -12,6 +12,11 @@ layout: yanfu
   - [Mapping H3 in Web Mercator projection](docs/H3Distortions.md)
 
 ---
+
+## [](#header-2) GIS Map Routing
+  - [Learning pgRouting (A*, Dijkstra) in PostGIS](docs/gisdata/HowToPrepareRoutingData.md)
+
+---
   
 ## [](#header-2) Raspiberry PI
   - [The world's 1st RC Cassette Planter](docs/CassettePlanter.md)
