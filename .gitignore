@@ -2,3 +2,5 @@
 .idea
 *.pgw
 .DS_Store
+*.pbf
+*.zip
