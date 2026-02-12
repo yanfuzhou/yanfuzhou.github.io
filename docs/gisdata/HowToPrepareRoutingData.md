@@ -95,7 +95,11 @@ ORDER BY a.tag_id ASC;
 
 ### Run following query to get the geometry of the route
 
-Here we are using `pgr_astar` algorithim, you can also change it to [pgr_dijkstra](https://access.crunchydata.com/documentation/pgrouting/latest/pgr_dijkstra.html), while `pgr_dijkstra` will be a lot slower than `pgr_astar`, however it does always give us the shortest path.
+Suppose our starting point is `-90.541574, 38.6462956` and our destination point is `-90.5589148, 38.665552`. 
+
+*In real case, the starting coordinates may come from the GPS on a smart phone and the destination coordinates can be get from the address, by setting up [the geocode search using TIGER address data in PostGIS](https://postgis.net/docs/Geocode.html)
+
+*Here we are using `pgr_astar` algorithim, you can also change it to [pgr_dijkstra](https://access.crunchydata.com/documentation/pgrouting/latest/pgr_dijkstra.html), while `pgr_dijkstra` will be a lot slower than `pgr_astar`, however it does always give us the shortest path.
 
 *Note: you can change `ST_AsGeoJSON` to `ST_AsText`, by doing this, you can get a WKT string as your result.
 
@@ -135,7 +139,7 @@ If you choose to export your result using `GeoJSON` format, you can also visuali
 
 ------
 
-## Further studies
+## Further studies, thoughts
 ### osm2po routing engine based on pgRouting and OSM map
 Doc: [osm2po](https://osm2po.de/)
 
@@ -148,4 +152,7 @@ Doc: [osm2po](https://osm2po.de/)
 - osm2po runs under Windows, Unix and Mac. Just make sure you have Java 8+ installed.
 - osm2po does not depend on foreign Java libraries.
 - osm2po's core is just one file. No installation is needed.
+
+### Thoughts
+A Restful API can be built by taking the parameters needed for `pgr_astar` from the user, and then perform the geocode search and routing search and then return the routing result as geometry back to the user, then the user can have a Typescript/Javascript UI frontend (such as [OpenLayers](https://openlayers.org/)) to visualize the result. In addtion, if the frontend is built on [React](https://react.dev/)/[Angular](https://angular.dev/) framework and deployed to a smart phone using such as [Apache Cordova](https://cordova.apache.org/), we can also track whehter the user is off the route through the GPS on the phone.
 
