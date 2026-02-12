@@ -35,15 +35,15 @@ layout: yanfu
 
 ---
   
-## [](#header-2) Image Stitching - UAV Breeding Crops
+## [](#header-2) Drone Image Stitching - UAV Breeding Crops
   - [Direct georeferencing **UAV** images](docs/UavDirectGeoreferencing.md)
   - [Quadrilateral Transformation **Algorithm**](docs/QuadrilateralTransformation.md)
 
 ---
   
-## [](#header-2) Raspiberry PI - Digital Farming & IoT
+## [](#header-2) Realtime GPS+GLONASS Tracking - Digital Farming & IoT
   - [The world's 1st RC Cassette **Planter**](docs/CassettePlanter.md)
-  - [DIYMall DY-880TTL **GPS** module](docs/DY880TTL.md)
+  - [DIYMall DY-880TTL **GPS** module on **Raspiberry PI**](docs/DY880TTL.md)
   - [QMC5883L Magnet **Compass**](docs/PyQMC5883L.md)
   
 ---
