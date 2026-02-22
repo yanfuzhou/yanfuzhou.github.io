@@ -16,6 +16,12 @@ layout: yanfu
 
 ## [](#header-2) Map Routing - Navigation & Geocoding
   - [Learning **pgRouting** (**A***, **Dijkstra**) in **PostGIS**](docs/gisdata/HowToPrepareRoutingData.md)
+  - [**[External Reading]** - Most popular routing engine - **OSRM** (**Contraction Hierarchies (CH)**, **Multi-Level Dijkstra (MLD)**)](https://github.com/Project-OSRM/osrm-backend) ([demo](http://map.project-osrm.org/))
+  	- [**[External Reading]** - Open Street Map (**OSM**) Wiki Reference](https://wiki.openstreetmap.org/wiki/Open_Source_Routing_Machine)
+  	- [**[External Reading]** - **OSRM** Project Page](https://project-osrm.org/)
+  	- [**[External Reading]** - Parallel Routing Analysis using **OSRM** and **Postgres** in **Spark**](https://github.com/UI-Research/spark-osrm)
+  	- [**[External Reading]** - **OSRM** + **H3** + **Spark** - A New Routing Estimation Method](https://careersatdoordash.com/blog/doordash-fast-travel-estimates/)
+  - [**[External Reading]** - Alternative Routing Engine besides **pgRouting** and **OSRM** - the **"Neo4J"**](https://neo4j.com/blog/developer/routing-web-app-neo4j-openstreetmap-leafletjs/)
 
 ---
 
@@ -30,7 +36,7 @@ layout: yanfu
 ---
 
 ## [](#header-2) Data Visualization - Water Resources Planning & Bioinformatics
-  - [An Integrated Network of Scientific Information & GeoHydrologic Tools (backend: **ArcGIS Server**)](https://nednr.nebraska.gov/insight/)
+  - [**[State-of-Art/Government Tech]** - Integrated Network of Scientific Information & GeoHydrologic Tools (backend: **ArcGIS Server**)](https://nednr.nebraska.gov/insight/)
   - [A data science tool for grouping proteins in different pathways (build by **D3js**)](docs/ProteomicsGroupingByWeight.md)
 
 ---
