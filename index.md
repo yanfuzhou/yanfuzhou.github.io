@@ -5,7 +5,8 @@ layout: yanfu
 # [](#header-1) Welcome to my digital portfolio!
 ---
 
-## [](#header-2) H3 Hexagon - LiDAR Point Cloud
+## [](#header-2) LiDAR Point Cloud - H3 Hexagon & Digital Elevation Model & 3D Printing
+  - [How to **3D Print** My Neighorhood on **Bambu Lab X-1 Carbon**](docs/3DPrintMyNeighbors.md)
   - [A data science tool for generate hexagonal **DEM** from **LiDAR** (build by **PDAL**, **NumPy** and more)](docs/AwsLidarH3.md)
   - [Why need to use hexagonal Digital Surface Model (**DSM**)?](docs/WhyUseHexagon.md)
   - [**H3** hexagon visualization on **Google Earth** pro](docs/GoogleEarthH3Vis.md)
@@ -25,7 +26,19 @@ layout: yanfu
 
 ---
 
-## [](#header-2) Software Stacks - OpenSource Geospatial Platform
+## [](#header-2) ESRI's Software Stacks - ArcGIS Enterprise Suite
+
+ *Note: start from the **ArcGIS Enterprise Server 11 for Linux**, the required packages may less than before (just need this `gettext*` package group), you can [check detail here](https://enterprise.arcgis.com/en/system-requirements/latest/linux/arcgis-server-system-requirements.htm)
+
+  - [**[External Reading]** - Required packages for install **ArcGIS Enterprise Server 10.x for Linux** on CentOS](https://desktop.arcgis.com/en/system-requirements/10.5/os-limits-linux.htm)
+  - [**[External Reading]** - How to install **ArcGIS Enterprise Server for Linux** Silently](https://enterprise.arcgis.com/en/server/11.4/install/linux/silently-install-arcgis-server.htm)
+  - [**[External Reading]** - The **ArcGIS Enterprise Server** Life Cycle](https://support.esri.com/en-us/products/arcgis-enterprise/life-cycle)
+  - [**[External Reading]** - How to make **GeoServer** mimick the **ArcGIS Server Restful API**](https://docs.geoserver.org/main/en/user/community/gsr/index.html)
+  - [**[External Reading]** - Letting **GeoServer** to use the **ESRI's Geodatabase**](https://docs.geoserver.org/2.19.x/en/user/community/arcsde/index.html)
+
+---
+
+## [](#header-2) OpenSource Software Stacks - Cloud Native Geospatial Platform
   - [Online Viewshed App (**3D trajectory analysis**) - YouTube Demo](https://www.youtube.com/watch?v=OkvwTfUE9yc)
   - [Dockerize **GeoServer** with **GDAL**/**Vector Tiles** plugins and using **GeoMesa** datastore](docs/GeomesaMac.md)
   - [Accessing **GeoTrellis** image server and dynamic tile stitching](docs/Geotrellis.md)
