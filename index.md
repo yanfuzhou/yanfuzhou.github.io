@@ -28,7 +28,7 @@ layout: yanfu
 
 ## [](#header-2) ESRI's Geospatial Platform - ArcGIS Enterprise Server
 
-*If budget isn't your consideration...* :+1:
+*If budget isn't your consideration...* 😊:
 
  *Note: start from the **ArcGIS Enterprise Server 11 for Linux**, the required packages may less than before (just need this `gettext*` package group), you can [check detail here](https://enterprise.arcgis.com/en/system-requirements/latest/linux/arcgis-server-system-requirements.htm)
 
@@ -46,7 +46,7 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
 
 ## [](#header-2) OpenSource Cloud Native Geospatial Platform - GeoServer
 
-*If budget tight and it's your consideration...* :-1:
+*If budget tight and it's your consideration...* 🙁:
 
   - [Online Viewshed App (**3D trajectory analysis**) - YouTube Demo](https://www.youtube.com/watch?v=OkvwTfUE9yc)
   - [Dockerize **GeoServer** with **GDAL**/**Vector Tiles** plugins and using **GeoMesa** datastore](docs/GeomesaMac.md)
