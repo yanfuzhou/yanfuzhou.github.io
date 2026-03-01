@@ -26,19 +26,28 @@ layout: yanfu
 
 ---
 
-## [](#header-2) ESRI's Software Stacks - ArcGIS Enterprise Suite
+## [](#header-2) ESRI's Geospatial Platform - ArcGIS Enterprise Server
+
+*If budget isn't your consideration...* :+1:
 
  *Note: start from the **ArcGIS Enterprise Server 11 for Linux**, the required packages may less than before (just need this `gettext*` package group), you can [check detail here](https://enterprise.arcgis.com/en/system-requirements/latest/linux/arcgis-server-system-requirements.htm)
 
+  - [Dockerizing **ArcGIS Enterprise Server** 10.0 SP5 For **Linux**](docs/DockerizingArcGISServerForLinux.md)
   - [**[External Reading]** - Required packages for install **ArcGIS Enterprise Server 10.x for Linux** on CentOS](https://desktop.arcgis.com/en/system-requirements/10.5/os-limits-linux.htm)
   - [**[External Reading]** - How to install **ArcGIS Enterprise Server for Linux** Silently](https://enterprise.arcgis.com/en/server/11.4/install/linux/silently-install-arcgis-server.htm)
   - [**[External Reading]** - The **ArcGIS Enterprise Server** Life Cycle](https://support.esri.com/en-us/products/arcgis-enterprise/life-cycle)
+  
+Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without breaking the frontend:
+
   - [**[External Reading]** - How to make **GeoServer** mimick the **ArcGIS Server Restful API**](https://docs.geoserver.org/main/en/user/community/gsr/index.html)
   - [**[External Reading]** - Letting **GeoServer** to use the **ESRI's Geodatabase**](https://docs.geoserver.org/2.19.x/en/user/community/arcsde/index.html)
 
 ---
 
-## [](#header-2) OpenSource Software Stacks - Cloud Native Geospatial Platform
+## [](#header-2) OpenSource Cloud Native Geospatial Platform - GeoServer
+
+*If budget tight and it's your consideration...* :-1:
+
   - [Online Viewshed App (**3D trajectory analysis**) - YouTube Demo](https://www.youtube.com/watch?v=OkvwTfUE9yc)
   - [Dockerize **GeoServer** with **GDAL**/**Vector Tiles** plugins and using **GeoMesa** datastore](docs/GeomesaMac.md)
   - [Accessing **GeoTrellis** image server and dynamic tile stitching](docs/Geotrellis.md)
