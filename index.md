@@ -6,7 +6,7 @@ layout: yanfu
 
 ---
 
-#### [](#header-4) **Summary** 😎
+#### [](#header-4) **Summary** 😎 <small>(This is generated from the ChatGPT after I showed it this page! 😂)</small>
 <small>Hi, I’m Yanfu Zhou. I’ve been working in the geospatial industry for more than 10 years, and I’m passionate about geospatial technologies and building systems that turn complex spatial data into practical, scalable solutions.</small>
 
 <small>This portfolio highlights selected projects across LiDAR processing, UAV imagery, routing engines, IoT/GPS tracking, and cloud-native spatial infrastructure using tools such as Python, PostGIS, AWS, and GCP. Throughout my career in government, agriculture, and enterprise environments, I’ve focused on transforming research-driven and manual workflows into efficient, production-ready platforms.</small>
@@ -63,7 +63,7 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
   - [Dockerize **GeoServer** with **GDAL**/**Vector Tiles** plugins and using **GeoMesa** datastore](docs/GeomesaMac.md)
   - [Accessing **GeoTrellis** image server and dynamic tile stitching](docs/Geotrellis.md)
   - [Map Visualization Using **GeoServer** and **OpenLayers** - YouTube Demo](https://www.youtube.com/watch?v=bAyy-3kzrWs)
-  - [A **Mobile GIS** App By **AngularJS** - YouTube Demo](https://www.youtube.com/watch?v=FDTTBfp-4wE) (**ArcGIS Javascripts API** + **Apache Cordova** + **HTML5/CSS3**)
+  - [A **Mobile GIS** App By **AngularJS** - YouTube Demo](https://www.youtube.com/watch?v=FDTTBfp-4wE)
   - [Map Publishing on **GeoServer** - YouTube Demo](https://www.youtube.com/watch?v=GUE5KSlLXWs)
 
 ---
@@ -89,7 +89,7 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
 
 ### [](#header-3) School Projects - Enviromental Planning Research 🏫
   - [School Lab Project: Volunteered Geographic Information (**VGI**) Website (backend: **ArcGIS Server**) - YouTube Demo](https://www.youtube.com/watch?v=IKSWJbKdrSA)
-  - [School Lab Project: A **Mobile GIS** App For Environmental Data Collection (backend: **ArcGIS Server**) - YouTube Demo](https://youtube.com/shorts/Gt--0rIEpqg?si=ea1OCwAmG3g33REO)
+  - [School Lab Project: A **Mobile GIS** App For Environmental Data Collection (backend: **ArcGIS Server**) - YouTube Demo](https://youtube.com/shorts/Gt--0rIEpqg?si=ea1OCwAmG3g33REO) (**ArcGIS Javascripts API** + **Apache Cordova** + **HTML5/CSS3**)
 
 ---
 
