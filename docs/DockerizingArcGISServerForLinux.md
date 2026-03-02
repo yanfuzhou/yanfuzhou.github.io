@@ -2,11 +2,11 @@
 layout: yanfu
 ---
 
-# [](#header-1)Dockerizing ArcGIS Enterprise Server 10.0 SP5 For Linux
+# [](#header-1)Dockerize ArcGIS Enterprise Server 10.0 SP5 For Linux
 
 ![result](../images/arcgis10docker.png)
 
-## [](#header-2)Why dockerizing the ArcGIS Enterprise Server?
+## [](#header-2)Why dockerize the ArcGIS Enterprise Server?
 Why? because someone has asked me for another question:
 
 Can ArcGIS Enterprise on Kubernetes be licensed using an existing ArcGIS Enterprise on Windows/Linux license?
@@ -36,7 +36,7 @@ In the legacy `ArcGIS_ServerEnterprise10_for_RedHatLinuxExterprise_and_SUSELinux
 
 `ArcGIS_ServerEnterprise10_for_RedHatLinuxExterprise_and_SUSELinuxEnterprise/ArcGISServer/ArcGISServer/support/silent/InstallServerSilently.sh` 
 
-The script is using the `SampleSilentServer.properties` file (available in the same path) for install the server, then update the property file to use the existing ArcGIS Enterprise on Windows/Linux license (*.ecp), then we can start the installation process inside the docker container.
+The script is using the `SampleSilentServer.properties` file (available in the same path) for install the server, then update the property file to use the existing ArcGIS Enterprise on Windows/Linux license (`*.ecp`), then we can start the installation process inside the docker container. The license file does not need to be left inside the docker container, once it finishes the authorization, we can simplely remove it from the container.
 
 While until now a day, all the ArcGIS Enterprise Server for Linux are still using X Window System. If you want to install the server using a GUI wizard (Just like the installation wizard on MS Windows), you need to consider setup a X11 server for doing that.
 
@@ -83,7 +83,10 @@ docker build -t yzhou16/centos5:arcgisserver10 .
 docker image prune -f
 ```
 
-It calls the `setup-all.sh` shell scripts inside the container, here is how it look like:
+The license file sits in the path with other installation files: `$HOME/Documents/Projects/Yanfu/Docker/rhel-arcgis-docker/install/ArcGISServer`, and it's mounted to the path `/mnt/cdrom` inside the container as a volumn (Docker CLI '-v' option), so later when we commit the container to an image, it will be excluded from the image, and the license file will never be in the image.
+
+Above shell scripts calls the `setup-all.sh` shell scripts inside the container, here is how it look like:
+
 
 ```bash
 #!/bin/bash
@@ -139,5 +142,5 @@ CONTAINER ID   IMAGE                            COMMAND      CREATED         STA
 Result in web browser and arcgis server installation path inside the container is showing in above
 
 
-
-
+### [](#header-3) Future works
+Will try dockrize the ArcGIS Enterprise Server 10.5 SP1 For Linux in the future
