@@ -7,11 +7,11 @@ layout: yanfu
 ---
 
 ### [](#header-3) Summary
-#####Hi, I’m Yanfu Zhou — a Senior Geospatial & Distributed Systems Engineer with 10+ years of experience building cloud-native geospatial platforms, real-time data pipelines, and GeoAI systems.
+#####Hi, I’m Yanfu Zhou. I’ve been working in the geospatial industry for more than 10 years, and I’m passionate about geospatial technologies and building systems that turn complex spatial data into practical, scalable solutions.
 
-#####This portfolio showcases selected projects across LiDAR processing, UAV imagery, routing engines, IoT/GPS tracking, and scalable spatial infrastructure using Python, PostGIS, AWS, and GCP. Throughout my work in government, agriculture, and enterprise environments, I’ve transformed complex, research-driven workflows into production-ready systems operating at scale.
+#####This portfolio highlights selected projects across LiDAR processing, UAV imagery, routing engines, IoT/GPS tracking, and cloud-native spatial infrastructure using tools such as Python, PostGIS, AWS, and GCP. Throughout my career in government, agriculture, and enterprise environments, I’ve focused on transforming research-driven and manual workflows into efficient, production-ready platforms.
 
-#####If you're looking for someone who can design and deliver robust geospatial platforms end-to-end, I’d be glad to connect.([LinkedIn](www.linkedin.com/in/yanfu-z-566a9889))
+#####If you're looking for someone who combines deep geospatial expertise with strong engineering execution, I’d be happy to connect.([LinkedIn](www.linkedin.com/in/yanfu-z-566a9889))
 
 ##### [](#header-5) Key words: 
 #####3D print, 3D trajactory, A*, Algorithm, AngularJS, Apache Cordova, ArcGIS Enterprise Server, ArcGIS Javascripts API, ArcGIS Server Restful API, Bambu Lab X-1 Carbon, CH, Compass, CSS3, DEM, Dijkstra, DSM, ESRI's geodatabase, GDAL, GeoMesa, GeoServer, GeoTrillis, Google Earth, GPS, H3, HTML5, kubernetes, LasTools, LiDAR, Linux, MLD, Mobile GIS, Neo4J, NUmpy, Openlayers, OSRM, PDAL, pgRouting, Planter, PostGIS, Postgres, PyTorch, QGIS, Raspiberry PI, Spark, Tensorflow, UAV, vector tiles, viewshed, VNC, Web Mercator
