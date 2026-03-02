@@ -7,12 +7,14 @@ layout: yanfu
 ---
 
 ### [](#header-3) Summary
+#####Hi, I’m Yanfu Zhou — a Senior Geospatial & Distributed Systems Engineer with 10+ years of experience building cloud-native geospatial platforms, real-time data pipelines, and GeoAI systems.
 
-######Hi, I’m Yanfu Zhou — a Senior Geospatial & Distributed Systems Engineer with 10+ years of experience building cloud-native geospatial platforms, real-time data pipelines, and GeoAI systems.
-######This portfolio showcases selected projects across LiDAR processing, UAV imagery, routing engines, IoT/GPS tracking, and scalable spatial infrastructure using Python, PostGIS, AWS, and GCP. Throughout my work in government, agriculture, and enterprise environments, I’ve transformed complex, research-driven workflows into production-ready systems operating at scale.
-######If you're looking for someone who can design and deliver robust geospatial platforms end-to-end, I’d be glad to connect.([LinkedIn](www.linkedin.com/in/yanfu-z-566a9889))
+#####This portfolio showcases selected projects across LiDAR processing, UAV imagery, routing engines, IoT/GPS tracking, and scalable spatial infrastructure using Python, PostGIS, AWS, and GCP. Throughout my work in government, agriculture, and enterprise environments, I’ve transformed complex, research-driven workflows into production-ready systems operating at scale.
+
+#####If you're looking for someone who can design and deliver robust geospatial platforms end-to-end, I’d be glad to connect.([LinkedIn](www.linkedin.com/in/yanfu-z-566a9889))
+
 ##### [](#header-5) Key words: 
-######3D print, 3D trajactory, A*, Algorithm, AngularJS, Apache Cordova, ArcGIS Enterprise Server, ArcGIS Javascripts API, ArcGIS Server Restful API, Bambu Lab X-1 Carbon, CH, Compass, CSS3, DEM, Dijkstra, DSM, ESRI's geodatabase, GDAL, GeoMesa, GeoServer, GeoTrillis, Google Earth, GPS, H3, HTML5, kubernetes, LasTools, LiDAR, Linux, MLD, Mobile GIS, Neo4J, NUmpy, Openlayers, OSRM, PDAL, pgRouting, Planter, PostGIS, Postgres, PyTorch, QGIS, Raspiberry PI, Spark, Tensorflow, UAV, vector tiles, viewshed, VNC, Web Mercator
+#####3D print, 3D trajactory, A*, Algorithm, AngularJS, Apache Cordova, ArcGIS Enterprise Server, ArcGIS Javascripts API, ArcGIS Server Restful API, Bambu Lab X-1 Carbon, CH, Compass, CSS3, DEM, Dijkstra, DSM, ESRI's geodatabase, GDAL, GeoMesa, GeoServer, GeoTrillis, Google Earth, GPS, H3, HTML5, kubernetes, LasTools, LiDAR, Linux, MLD, Mobile GIS, Neo4J, NUmpy, Openlayers, OSRM, PDAL, pgRouting, Planter, PostGIS, Postgres, PyTorch, QGIS, Raspiberry PI, Spark, Tensorflow, UAV, vector tiles, viewshed, VNC, Web Mercator
 
 ---
 
