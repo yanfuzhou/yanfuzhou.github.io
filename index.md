@@ -1,7 +1,3 @@
----
-layout: yanfu
----
-
 # [](#header-1) Welcome to my digital portfolio! 🎉 🎊 🎈
 
 ---
@@ -18,9 +14,11 @@ layout: yanfu
 
 ---
 
-## [](#header-2) Things that I want to show... 👀
+### [](#header-3) Things that I want to show... 👀
 
-### [](#header-3) ESRI's Geospatial Platform - ArcGIS Enterprise Server (<small>*If budget isn't your consideration...*</small>) 😊
+-
+
+### [](#header-3) **ESRI's Geospatial Platform - ArcGIS Enterprise Server** (<small>*If budget isn't your consideration...*</small>) 😊
 
  *Note: start from the **ArcGIS Enterprise Server 11 for Linux**, the required packages may less than before (just need this `gettext*` package group), you can [check detail here](https://enterprise.arcgis.com/en/system-requirements/latest/linux/arcgis-server-system-requirements.htm)
 
@@ -39,7 +37,7 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
 
 ---
 
-### [](#header-3) OpenSource Cloud Native Geospatial Platform - GeoServer (<small>*If budget tight and is your consideration...*</small>) 🙁
+### [](#header-3) **OpenSource Cloud Native Geospatial Platform - GeoServer** (<small>*If budget tight and is your consideration...*</small>) 🙁
 
   - [Online **Viewshed** App (**3D trajectory analysis**) - YouTube Demo](https://www.youtube.com/watch?v=OkvwTfUE9yc)
   - [Dockerize **GeoServer** with **GDAL**/**Vector Tiles** plugins and using **GeoMesa** datastore](docs/GeomesaMac.md)
@@ -51,7 +49,7 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
 
 ---
 
-### [](#header-3) Remote Sensing - LiDAR Point Cloud & H3 Hexagon & Digital Elevation Model & 3D Printing 🛰️
+### [](#header-3) **Remote Sensing - LiDAR Point Cloud & H3 Hexagon & Digital Elevation Model & 3D Printing** 🛰️
   - [How to **3D Print** My Neighorhood on **Bambu Lab X-1 Carbon**](docs/3DPrintMyNeighbors.md)
   - [A data science tool for generate hexagonal **DEM** from **LiDAR** (build by **PDAL**, **NumPy** and more)](docs/AwsLidarH3.md)
   - [Why need to use hexagonal Digital Surface Model (**DSM**)?](docs/WhyUseHexagon.md)
@@ -61,7 +59,7 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
 
 ---
 
-### [](#header-3) Map Routing - Navigation & Realtime GPS+GLONASS & Digital Farming & IoT 🌎
+### [](#header-3) **Map Routing - Navigation & Realtime GPS+GLONASS & Digital Farming & IoT** 🌎
   - [Learning **pgRouting** (**A***, **Dijkstra**) in **PostGIS**](docs/gisdata/HowToPrepareRoutingData.md)
   - [The world's 1st RC Cassette **Planter**](docs/CassettePlanter.md)
   - [DIYMall DY-880TTL **GPS** module on **Raspiberry PI**](docs/DY880TTL.md)
@@ -75,30 +73,30 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
 
 ---
   
-### [](#header-3) Drone Image Stitching - UAV Breeding Crops 🛩️
+### [](#header-3) **Drone Image Stitching - UAV Breeding Crops** 🛩️
   - [Direct georeferencing **UAV** images](docs/UavDirectGeoreferencing.md)
   - [Quadrilateral Transformation **Algorithm**](docs/QuadrilateralTransformation.md)
   
 ---
 
-### [](#header-3) Random Geospatial Works & Self Exploration 🏞️
+### [](#header-3) **Random Geospatial Works & Self Exploration** 🏞️
   - [How to Add BaseMap in **QGIS** - YouTube Demo](https://www.youtube.com/watch?v=4JESmOrHq5M)
   - [A budget build eGPU on Linux for **Tensorflow**, **PyTorch** development](docs/LinuxGPU.md)
   - [P.E.A.N Stack - YouTube Demo](https://www.youtube.com/watch?v=2cR4JLT3pno)
 
 ---
 
-### [](#header-3) Data Visualization -  Bioinformatics 🧬
+### [](#header-3) **Data Visualization -  Bioinformatics** 🧬
   - [A data science tool for grouping proteins in different pathways (build by **D3js**)](docs/ProteomicsGroupingByWeight.md)
 
 ---
 
-### [](#header-3) Motion Pictures - Urban Planning & Architecture 🌆
+### [](#header-3) **Motion Pictures - Urban Planning & Architecture** 🌆
   - [School Lab Project] - [Cornhusker Corridor LiNK to LNK Plan 2013](https://www.youtube.com/watch?v=8Mej2ZBo0wM)
 
 ---
   
-### [](#header-3) Tricky Things - Cloud Linux & CI/CD Pipeline 🥷
+### [](#header-3) **Tricky Things - Cloud Linux & CI/CD Pipeline** 🥷
   - [Programmatically setup **VNC** password](docs/VNCansible.md)
   - [Passing local environment variables to **Kubernetes**](docs/AflaskApp.md)
 

@@ -1,22 +1,25 @@
----
-layout: yanfu
----
-
 ## [](header-2)Use Kubernetes as local development environment on Mac
+
 ### [](header-3)Step1 Enable Kubernetes
+
 #### 1.1 Download Docker Desktop for Mac at here: 
+
 https://hub.docker.com/editions/community/docker-ce-desktop-mac/
+
 #### [](header-4)1.2 Install Docker for Mac:
+
 https://docs.docker.com/docker-for-mac/install/
-![](https://docs.docker.com/docker-for-mac/images/docker-app-drag.png)
+
 #### [](header-4)1.3 Enable Kubernetes:
 
 *Note: if you already have Kubernetes installed, or your Kubernetes are configured not by Docker, you may need to back up your Kubernetes config file (`~/.kube/config`) before proceed this tutorial. After you walk through this tutorial, you can always merge the content of your backups to the Docker generated Kubernetes config file in a text editor. 
 
 [https://docs.docker.com/docker-for-mac/#preferences](https://docs.docker.com/docker-for-mac/#preferences)  
+
 [https://docs.docker.com/docker-for-mac/#kubernetes](https://docs.docker.com/docker-for-mac/#kubernetes)
 
 ### [](header-3)Step2 Kubernetes Dashboard
+
 #### [](header-4)2.1 Deployment
 To deploy Dashboard, execute following command:
 ```bash
@@ -61,6 +64,7 @@ Open Dashboard link in a browser.
 http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/
 
 #### [](header-4)2.3 Dashboard login
+
 ##### [](header-5)2.3.1 Generate token for docker desktop user
 Now we need to find token we can use to log in. Execute following command:
 ```bash
@@ -69,7 +73,9 @@ kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboar
 Now copy the token and paste it into `Enter token` field on the login screen.
 ![](https://github.com/kubernetes/dashboard/raw/master/docs/images/signin.png)
 Click `Sign in` button and that's it. You are now logged in.
+
 ##### [](header-5)2.3.2 Use config file to login (Optional)
+
 Copy Kubernetes config file to a place, such as to your Desktop `cp ~/.kube/config ~/Desktop/config`.
 Now open `~/Desktop/config` in a text editor and add token to `users`.
 ```yaml
@@ -84,7 +90,9 @@ users:
     token: <*add your token here*>
 ```
 Then save your config file.
+
 ### [](header-3)Step3 Deploy Nginx (Optional, but recommended)
+
 In order to test Kubernetes environment, we'll deploy Nginx, so execute following command:
 ```bash
 kubectl apply -f https://k8s.io/examples/controllers/nginx-deployment.yaml
@@ -130,9 +138,13 @@ Events:                   <none>
 
 *For understanding more details of service type, please read through this article:
 https://www.bmc.com/blogs/kubernetes-services/
+
 ### [](header-3)Step4 Deploy a Flask API
+
 In this example, we'll deploy a Flask API (Nginx + uwsgi + Flask) to Kubernetes
+
 #### [](header-4)4.1 Download API source code
+
 ```bash
 git clone https://github.com/yanfuzhou/a-flask-app.git
 ```
@@ -144,7 +156,9 @@ pip install -r requirements.txt
 Then navigate to http://localhost:4000/api in your web browser
 
 ![](../images/flaskapp0.png)
+
 #### [](header-4)4.2 Deploy to Kubernetes
+
 To deploy to Docker Kubernetes, execute following command:
 ```bash
 ./docker_deploy.sh -i a-flask-app -c app.conf
@@ -160,6 +174,7 @@ optional arguments:
                           Flask app environemt variable bash file, such as 'export API_NAME=hello.app.flask'
 ```
 #### [](header-4)4.3 Kubernetes JSON template
+
 The Kubernetes deployment template files are located in `deployments/template` folder
 ```bash
 ls -l deployments/template 

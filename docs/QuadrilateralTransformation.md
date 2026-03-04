@@ -1,7 +1,3 @@
----
-layout: yanfu
----
-
 # [](#header-1)Quadrilateral Transformation
 
 Quadrilateral Transformation is a popular technic for reshaping an image. In geometry a quadrilateral is a four-sided polygon, having four edges (sides) and four corners (vertices). The word is derived from the Latin words quadri, a variant of four, and latus, meaning "side". It is also called a tetragon, derived from greek "tetra" meaning "four" and "gon" meaning "corner" or "angle", in analogy to other polygons.

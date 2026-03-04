@@ -1,7 +1,3 @@
----
-layout: yanfu
----
-
 # [](#header-1)Dockerize ArcGIS Enterprise Server 10.0 SP5 For Linux
 
 ![result](../images/arcgis10docker.png)

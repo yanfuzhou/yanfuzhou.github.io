@@ -1,7 +1,3 @@
----
-layout: yanfu
----
-
 # [](header-1)Dockerized GeoServer with GDAL plugin
 
 Dockerfile for [GeoServer](https://geoserver.org/) with [GDAL](https://gdal.org/) and other extensions, based on [CentOS7](https://www.centos.org/)
