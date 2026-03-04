@@ -14,9 +14,7 @@
 
 ---
 
-### [](#header-3) Things that I want to show... 👀
-
--
+Things that I want to show... 👀
 
 ### [](#header-3) **ESRI's Geospatial Platform - ArcGIS Enterprise Server** (<small>*If budget isn't your consideration...*</small>) 😊
 
