@@ -2,16 +2,16 @@
 layout: yanfu
 ---
 
-# [](#header-1) Welcome to my digital portfolio! 🎉 🎊 🎈
+# [](#header-1) **Welcome to my digital portfolio!** 🎉 🎊 🎈
 
 ---
 
 #### [](#header-4) **Summary** 😎 <small>(This is generated from the ChatGPT after I showed it this page! 😂)</small>
-<small>Hi, I’m Yanfu Zhou. I’ve been working in the geospatial industry for more than 10 years, and I’m passionate about geospatial technologies and building systems that turn complex spatial data into practical, scalable solutions.</small>
+<middle>Hi, I’m Yanfu Zhou. I’ve been working in the geospatial industry for more than 10 years, and I’m passionate about geospatial technologies and building systems that turn complex spatial data into practical, scalable solutions.</middle>
 
-<small>This portfolio highlights selected projects across LiDAR processing, UAV imagery, routing engines, IoT/GPS tracking, and cloud-native spatial infrastructure using tools such as Python, PostGIS, AWS, and GCP. Throughout my career in government, agriculture, and enterprise environments, I’ve focused on transforming research-driven and manual workflows into efficient, production-ready platforms.</small>
+<middle>This portfolio highlights selected projects across LiDAR processing, UAV imagery, routing engines, IoT/GPS tracking, and cloud-native spatial infrastructure using tools such as Python, PostGIS, AWS, and GCP. Throughout my career in government, agriculture, and enterprise environments, I’ve focused on transforming research-driven and manual workflows into efficient, production-ready platforms.</middle>
 
-<small>If you're looking for someone who combines deep geospatial expertise with strong engineering execution, I’d be happy to connect.([LinkedIn](www.linkedin.com/in/yanfu-z-566a9889))</small>
+<middle>If you're looking for someone who combines deep geospatial expertise with strong engineering execution, I’d be happy to connect.([LinkedIn](www.linkedin.com/in/yanfu-z-566a9889))</middle>
 
 ##### [](#header-5) **Here are the key words on this page!** 🔑
 <small>3D print, 3D trajactory, A*, Algorithm, AngularJS, Apache Cordova, ArcGIS Enterprise Server, ArcGIS Javascripts API, ArcGIS Server Restful API, Bambu Lab X-1 Carbon, CH, Compass, CSS3, DEM, Dijkstra, DSM, ESRI's geodatabase, GDAL, GeoMesa, GeoServer, GeoTrillis, Google Earth, Government Tech, GPS, H3, HTML5, kubernetes, LasTools, LiDAR, Linux, MLD, Mobile GIS, Neo4J, Numpy, Openlayers, OSRM, PDAL, pgRouting, Planter, PostGIS, Postgres, PyTorch, QGIS, Raspiberry PI, Spark, State-of-Art, Tensorflow, UAV, vector tiles, viewshed, VNC, Web Mercator</small>
