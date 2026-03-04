@@ -1,3 +1,7 @@
+---
+layout: yanfu
+---
+
 # [](header-1)Accessing GeoTrellis image server and dynamic tile stitching
 
 A python client for [GeoTrellis](https://geotrellis.io/) TMS service

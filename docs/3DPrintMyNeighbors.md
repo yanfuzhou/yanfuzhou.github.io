@@ -1,4 +1,8 @@
-# [](#header-1)3D Print My Neighors
+---
+layout: yanfu
+---
+
+# [](#header-1)How to 3D Print My Neighorhood on Bambu Lab X-1 Carbon
 
 ![neighbor01](../images/neighbor01.jpg)
 
@@ -58,6 +62,7 @@ Here is how it looks! Now you can hang it on the wall as a special decoration in
 ![neighbor02](../images/neighbor02.jpg)
 ![neighbor03](../images/neighbor03.jpg)
 ![neighbor04](../images/neighbor04.jpg)
+
 
 
 

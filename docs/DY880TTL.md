@@ -1,3 +1,7 @@
+---
+layout: yanfu
+---
+
 # [](#header-1)DIYMall DY-880TTL GPS Sensor
 
 ## [](#header-2)Introduction and hardware wiring 

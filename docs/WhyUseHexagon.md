@@ -1,3 +1,7 @@
+---
+layout: yanfu
+---
+
 # [](#header-1)HEXAGONAL DIGITAL SURFACE MODEL
 
 Using Icosahedral-based Geodesic Discrete Global Grid To Build Hexagonal Digital Surface Model

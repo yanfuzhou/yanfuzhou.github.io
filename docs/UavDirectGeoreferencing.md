@@ -1,3 +1,7 @@
+---
+layout: yanfu
+---
+
 # Direct georeferencing UAV breeding RGB photos
 
 ![UAV](../images/UAV.jpeg)

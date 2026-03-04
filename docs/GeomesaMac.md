@@ -1,3 +1,7 @@
+---
+layout: yanfu
+---
+
 # [](#header-1)Dockerized GeoServer with GDAL plugin and Geomesa datastore
 
 Dockerfile of GeoServer with GDAL and other extensions + GeoMesa Accumulo full backend in a single container
