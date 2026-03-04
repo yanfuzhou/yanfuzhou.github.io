@@ -1,7 +1,3 @@
----
-layout: yanfu
----
-
 # [](#header-1)3D Print My Neighors
 
 ![neighbor01](../images/neighbor01.jpg)

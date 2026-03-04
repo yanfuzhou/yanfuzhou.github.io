@@ -1,7 +1,3 @@
----
-layout: yanfu
----
-
 # [](#header-1)Building CUDA 10, Tensorflow2.0, PyTorch for development environment
 
 ![linux-egpu](../images/linux_egpu.png)

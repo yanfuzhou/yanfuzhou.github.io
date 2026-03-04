@@ -1,7 +1,3 @@
----
-layout: yanfu
----
-
 # World's 1st RC Cassette Planter
 
 ![planter](../images/planter.jpg)

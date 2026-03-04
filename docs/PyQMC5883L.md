@@ -1,7 +1,3 @@
----
-layout: yanfu
----
-
 # [](#header-1)Python driver for the QMC5883L 3-Axis Magnetic Sensor
 
 Developed for the **Raspberry Pi**, requires the **python-smbus** package
