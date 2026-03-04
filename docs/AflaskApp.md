@@ -1,3 +1,7 @@
+---
+layout: yanfu
+---
+
 ## [](header-2)Use Kubernetes as local development environment on Mac
 
 ### [](header-3)Step1 Enable Kubernetes

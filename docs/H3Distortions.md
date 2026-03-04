@@ -1,3 +1,7 @@
+---
+layout: yanfu
+---
+
 # [](#header-1)Mapping H3 index in Web Mercator Projection
 
 How does it look like if we map H3 index in [Web Mercator projection](https://en.wikipedia.org/wiki/Web_Mercator_projection)?

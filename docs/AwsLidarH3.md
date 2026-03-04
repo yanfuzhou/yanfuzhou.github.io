@@ -1,3 +1,7 @@
+---
+layout: yanfu
+---
+
 # [](#header-1)Walk through the AWS LIDAR H3
 
 The AWS LIDAR H3 is a tool for producing hexagonal DEM from [USGS 3DEP LiDAR Point Clouds (Open Data on AWS)](https://registry.opendata.aws/usgs-lidar/). The USGS 3DEP LiDAR Point Clouds are indexed as [entwine point tile (EPT)](https://entwine.io/entwine-point-tile.html). It  is a simple and flexible octree-based storage format for point cloud data. The AWS LIDAR H3 is built on top of three key libraries. They are [PDAL](https://pdal.io/), [GDAL](https://gdal.org/) and [H3](https://h3geo.org/), etc. Other libraries are [numpy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [shapely](https://shapely.readthedocs.io/en/stable/manual.html) and [scipy](https://scipy.org/), etc.
@@ -163,12 +167,3 @@ $ docker run --rm \
 	-b -77.060466 38.866578 -77.051325 38.874446 \
 	-f the_pentagon
 ```
-
-
-
-
-
-
-
-
-
