@@ -143,4 +143,4 @@ Result in web browser and arcgis server installation path inside the container i
 
 
 ### [](#header-3) Future works
-Will try dockrize the ArcGIS Enterprise Server 10.5 SP1 For Linux in the future
+<del>Will try dockrize the ArcGIS Enterprise Server 10.3.1 For Linux in the future</del>
