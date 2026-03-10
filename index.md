@@ -11,12 +11,13 @@ layout: yanfu
 
 <middle>This portfolio highlights selected projects across LiDAR processing, UAV imagery, routing engines, IoT/GPS tracking, and cloud-native spatial infrastructure using tools such as Python, PostGIS, AWS, and GCP. Throughout my career in government, agriculture, and enterprise environments, I’ve focused on transforming research-driven and manual workflows into efficient, production-ready platforms.</middle>
 
-<middle>If you're looking for someone who combines deep geospatial expertise with strong engineering execution, I’d be happy to connect on [LinkedIn](www.linkedin.com/in/yanfu-z-566a9889).</middle>
+<middle>If you're looking for someone who combines deep geospatial expertise with strong engineering execution, I’d be happy to connect:</middle>
 
-*NOTE: most of the code or data demonstrated on this page are published to public:
+- [LinkedIn](www.linkedin.com/in/yanfu-z-566a9889).
 
-- [Link to my Docker Hub](https://hub.docker.com/u/yzhou16)
-- [Link to my GitHub Repo](https://github.com/yanfuzhou?tab=repositories)
+*NOTE: most of the code or data demonstrated here are published to public, if you're interested, you can download them from:
+
+- [my Docker Hub](https://hub.docker.com/u/yzhou16) & [my GitHub Repo](https://github.com/yanfuzhou?tab=repositories)
 
 ##### [](#header-5) **Here are the key words on this page!** 🔑
 <small>3D print, 3D trajactory, A*, Algorithm, Android, AngularJS, Apache Cordova, ArcGIS Enterprise Server, ArcGIS Javascripts API, ArcGIS Server Restful API, Bambu Lab X-1 Carbon, CH, Compass, CSS3, DEM, Dijkstra, DSM, ESRI's geodatabase, GDAL, GeoMesa, GeoServer, GeoTrillis, Google Earth, Government Tech, GPS, H3, HTML5, iOS, kubernetes, LasTools, LiDAR, Linux, MLD, Mobile GIS, Neo4J, Numpy, Openlayers, OSRM, PDAL, pgRouting, Planter, PostGIS, Postgres, PyTorch, QGIS, Raspiberry PI, Spark, State-of-Art, Tensorflow, UAV, vector tiles, viewshed, VNC, Web Mercator</small>
