@@ -7,16 +7,17 @@ layout: yanfu
 ---
 
 #### [](#header-4) **Summary** 😎 <small>(This is generated from the ChatGPT after I showed it this page! 😂)</small>
-<middle>Hi, I’m Yanfu Zhou. I’ve been working in the geospatial industry for more than 10 years, and I’m passionate about geospatial technologies and building systems that turn complex spatial data into practical, scalable solutions.
-This portfolio highlights selected projects across LiDAR processing, UAV imagery, routing engines, IoT/GPS tracking, and cloud-native spatial infrastructure using tools such as Python, PostGIS, AWS, and GCP. Throughout my career in government, agriculture, and enterprise environments, I’ve focused on transforming research-driven and manual workflows into efficient, production-ready platforms.<br>
-If you're looking for someone who combines deep geospatial expertise with strong engineering execution, I’d be happy to connect.<br>
+<middle>Hi, I’m Yanfu Zhou. I’ve been working in the geospatial industry for more than 10 years, and I’m passionate about geospatial technologies and building systems that turn complex spatial data into practical, scalable solutions.</middle>
 
-<details>
-  <summary>Click for more details</summary>
-- [my LinkedIn](www.linkedin.com/in/yanfu-z-566a9889).<br><br>
-*NOTE: most of the code or data demonstrated here are published to public, if you're interested, you can download them from:<br>
+<middle>This portfolio highlights selected projects across LiDAR processing, UAV imagery, routing engines, IoT/GPS tracking, and cloud-native spatial infrastructure using tools such as Python, PostGIS, AWS, and GCP. Throughout my career in government, agriculture, and enterprise environments, I’ve focused on transforming research-driven and manual workflows into efficient, production-ready platforms.</middle>
+
+<middle>If you're looking for someone who combines deep geospatial expertise with strong engineering execution, I’d be happy to connect:</middle>
+
+- [LinkedIn](www.linkedin.com/in/yanfu-z-566a9889).
+
+*NOTE: most of the code or data demonstrated here are published to public, if you're interested, you can download them from:
+
 - [my Docker Hub](https://hub.docker.com/u/yzhou16) & [my GitHub Repo](https://github.com/yanfuzhou?tab=repositories)
-</details></middle>
 
 ##### [](#header-5) **Here are the key words on this page!** 🔑
 <details>
@@ -30,8 +31,7 @@ Things that I want to show... 👀
 
 ### [](#header-3) **ESRI's Geospatial Platform - ArcGIS Enterprise Server** (<small>*If budget isn't your consideration...*</small>) 😊
 
-<details open>
-  <summary>Click to expand</summary>
+ *Note: start from the **ArcGIS Enterprise Server 11 for Linux**, the required packages may less than before (just need this `gettext*` package group), you can [check detail here](https://enterprise.arcgis.com/en/system-requirements/latest/linux/arcgis-server-system-requirements.htm)
 
   - [Dockerize **ArcGIS Enterprise Server** 10.0 SP5 For **Linux**](docs/DockerizingArcGISServerForLinux.md)
   - [**State-of-Art/Gov. Tech**]-💧Water Resources Planning-[Integrated Network of Scientific Information & GeoHydrologic Tools](https://nednr.nebraska.gov/insight/): <small>**ArcGIS Server**+**ArcGIS Javascripts API**+**C3.js**+**HTML5/CSS3**</small>
@@ -42,21 +42,14 @@ Things that I want to show... 👀
   - [Reference]-[The **ArcGIS Enterprise Server** Life Cycle](https://support.esri.com/en-us/products/arcgis-enterprise/life-cycle)
   
 Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without breaking the frontend:
-<details>
-  <summary>Click for more details</summary>
-  
+
   - [Reference]-[How to make **GeoServer** mimick the **ArcGIS Server Restful API**](https://docs.geoserver.org/main/en/user/community/gsr/index.html)
   - [Reference]-[Letting **GeoServer** to use the **ESRI's Geodatabase**](https://docs.geoserver.org/2.19.x/en/user/community/arcsde/index.html)
-</details>
-</details>
 
 ---
 
 ### [](#header-3) **OpenSource Cloud Native Geospatial Platform - GeoServer** (<small>*If budget tight and is your consideration...*</small>) 🙁
 
-<details open>
-  <summary>Click to expand</summary>
-  
   - [Dockerize **GeoServer** with **GDAL**/**Vector Tiles** plugins and using **GeoMesa** datastore](docs/GeomesaMac.md)
   - Online **Viewshed** App (**3D trajectory analysis**) - [YouTube](https://www.youtube.com/watch?v=OkvwTfUE9yc)
   - [Dockerize **Geoserver** with **GDAL**/**Vector Tiles** plugins](docs/GeoServer.md)
@@ -64,30 +57,20 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
   - Map Visualization Using **GeoServer** and **OpenLayers** - [YouTube](https://www.youtube.com/watch?v=bAyy-3kzrWs)
   - A **Mobile GIS** App By **AngularJS** - [YouTube](https://www.youtube.com/watch?v=FDTTBfp-4wE)
   - Map Publishing on **GeoServer** - [YouTube](https://www.youtube.com/watch?v=GUE5KSlLXWs)
-</details>
 
 ---
 
-### [](#header-3) **Data Science - LiDAR Point Cloud & H3 Hexagon & Digital Elevation Model & 3D Printing** 🛰️
-
-<details open>
-  <summary>Click to expand</summary>
-  
+### [](#header-3) **Remote Sensing - LiDAR Point Cloud & H3 Hexagon & Digital Elevation Model & 3D Printing** 🛰️
   - [How to **3D Print** My Neighorhood on **Bambu Lab X-1 Carbon**](docs/3DPrintMyNeighbors.md)
   - [A data science tool for generate hexagonal **DEM** from **LiDAR** (build by **PDAL**, **NumPy** and more)](docs/AwsLidarH3.md)
   - [Why need to use hexagonal Digital Surface Model (**DSM**)?](docs/WhyUseHexagon.md)
   - [**H3** hexagon visualization on **Google Earth** pro](docs/GoogleEarthH3Vis.md)
   - [Mapping **H3** in **Web Mercator** projection](docs/H3Distortions.md)
   - Simple **LiDAR** Data Visualization Tool (Wine + **LasTools**) - [YouTube](https://www.youtube.com/watch?v=-3u1CQIp5Hw)
-</details>
 
 ---
 
 ### [](#header-3) **Map Routing - Navigation & Realtime GPS+GLONASS & Digital Farming & IoT** 🌎
-
-<details>
-  <summary>Click to expand</summary>
-  
   - [Learning **pgRouting** (**A***, **Dijkstra**) in **PostGIS**](docs/gisdata/HowToPrepareRoutingData.md)
   - [The world's 1st RC Cassette **Planter**](docs/CassettePlanter.md)
   - [DIYMall DY-880TTL **GPS** module on **Raspiberry PI**](docs/DY880TTL.md)
@@ -98,30 +81,19 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
   - [Reference]-[Parallel Routing Analysis using **OSRM** and **Postgres** in **Spark**](https://github.com/UI-Research/spark-osrm)
   - [Reference]-[**OSRM** + **H3** + **Spark** - A New Routing Estimation Method](https://careersatdoordash.com/blog/doordash-fast-travel-estimates/)
   - [Reference]-[Alternative Routing Engine besides **pgRouting** and **OSRM** - the **"Neo4J"**](https://neo4j.com/blog/developer/routing-web-app-neo4j-openstreetmap-leafletjs/)
-</details>
 
 ---
   
 ### [](#header-3) **Drone Image Stitching - UAV Breeding Crops** 🛩️
-
-<details>
-  <summary>Click to expand</summary>
-  
   - [Direct georeferencing **UAV** images](docs/UavDirectGeoreferencing.md)
   - [Quadrilateral Transformation **Algorithm**](docs/QuadrilateralTransformation.md)
-</details>
-
+  
 ---
 
 ### [](#header-3) **Random Geospatial Works & Self Exploration** 🏞️
-
-<details>
-  <summary>Click to expand</summary>
-  
   - How to Add BaseMap in **QGIS** - [YouTube](https://www.youtube.com/watch?v=4JESmOrHq5M)
   - [A budget build eGPU on Linux for **Tensorflow**, **PyTorch** development](docs/LinuxGPU.md)
   - [P.E.A.N Stack - YouTube Demo](https://www.youtube.com/watch?v=2cR4JLT3pno)
-</details>
 
 ---
 
@@ -136,12 +108,7 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
 ---
   
 ### [](#header-3) **Tricky Things - Cloud Linux & CI/CD Pipeline** 🥷
-
-<details>
-  <summary>Click to expand</summary>
-  
   - [Programmatically setup **VNC** password](docs/VNCansible.md)
   - [Passing local environment variables to **Kubernetes**](docs/AflaskApp.md)
-</details>
 
 
