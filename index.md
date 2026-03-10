@@ -15,10 +15,6 @@ layout: yanfu
 
 - [LinkedIn](www.linkedin.com/in/yanfu-z-566a9889).
 
-*NOTE: most of the code or data demonstrated here are published to public, if you're interested, you can download them from:
-
-- [my Docker Hub](https://hub.docker.com/u/yzhou16) & [my GitHub Repo](https://github.com/yanfuzhou?tab=repositories)
-
 ##### [](#header-5) **Here are the key words on this page!** 🔑
 <details>
   <summary>Click to see</summary>
@@ -111,4 +107,10 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
   - [Programmatically setup **VNC** password](docs/VNCansible.md)
   - [Passing local environment variables to **Kubernetes**](docs/AflaskApp.md)
 
+---
 
+*NOTE: most of the code or data demonstrated here are published to public, if you're interested, you can download them from:
+
+- [my Docker Hub](https://hub.docker.com/u/yzhou16) & [my GitHub Repo](https://github.com/yanfuzhou?tab=repositories)
+
+<br><br><br>
