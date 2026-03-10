@@ -110,6 +110,8 @@ chmod +x /tmp/scripts/run.sh
 yes | cp /tmp/scripts/run.sh /home/admin/run.sh
 ```
 
+ *Note: start from the **ArcGIS Enterprise Server 11 for Linux**, the required packages may less than before (just need this `gettext*` package group), you can [check detail here](https://enterprise.arcgis.com/en/system-requirements/latest/linux/arcgis-server-system-requirements.htm)
+
 ## [](#header-2)Launch the ArcGIS Enterprise Server 10.0 SP5 For Linux into a container
 
 *Note: Please make sure you have following in your hosts file `/etc/hosts`:
