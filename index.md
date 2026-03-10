@@ -11,7 +11,7 @@ layout: yanfu
 
 <middle>This portfolio highlights selected projects across LiDAR processing, UAV imagery, routing engines, IoT/GPS tracking, and cloud-native spatial infrastructure using tools such as Python, PostGIS, AWS, and GCP. Throughout my career in government, agriculture, and enterprise environments, I’ve focused on transforming research-driven and manual workflows into efficient, production-ready platforms.</middle>
 
-<middle>If you're looking for someone who combines deep geospatial expertise with strong engineering execution, I’d be happy to connect.([LinkedIn](www.linkedin.com/in/yanfu-z-566a9889))</middle>
+<middle>If you're looking for someone who combines deep geospatial expertise with strong engineering execution, I’d be happy to connect on [LinkedIn](www.linkedin.com/in/yanfu-z-566a9889).</middle>
 
 *NOTE: most of the code or data demonstrated on this page are published to public:
 
