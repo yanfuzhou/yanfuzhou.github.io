@@ -2,7 +2,7 @@
 layout: yanfu
 ---
 
-# [](#header-1) **Welcome to my digital portfolio!** 🎉 🎊 🎈
+# [](#header-1) **Hello, World! This is my portfolio** 🎉 🎊 🎈
 
 ---
 
@@ -19,7 +19,7 @@ layout: yanfu
 - [Link to my GitHub Repo](https://github.com/yanfuzhou?tab=repositories)
 
 ##### [](#header-5) **Here are the key words on this page!** 🔑
-<small>3D print, 3D trajactory, A*, Algorithm, AngularJS, Apache Cordova, ArcGIS Enterprise Server, ArcGIS Javascripts API, ArcGIS Server Restful API, Bambu Lab X-1 Carbon, CH, Compass, CSS3, DEM, Dijkstra, DSM, ESRI's geodatabase, GDAL, GeoMesa, GeoServer, GeoTrillis, Google Earth, Government Tech, GPS, H3, HTML5, kubernetes, LasTools, LiDAR, Linux, MLD, Mobile GIS, Neo4J, Numpy, Openlayers, OSRM, PDAL, pgRouting, Planter, PostGIS, Postgres, PyTorch, QGIS, Raspiberry PI, Spark, State-of-Art, Tensorflow, UAV, vector tiles, viewshed, VNC, Web Mercator</small>
+<small>3D print, 3D trajactory, A*, Algorithm, Android, AngularJS, Apache Cordova, ArcGIS Enterprise Server, ArcGIS Javascripts API, ArcGIS Server Restful API, Bambu Lab X-1 Carbon, CH, Compass, CSS3, DEM, Dijkstra, DSM, ESRI's geodatabase, GDAL, GeoMesa, GeoServer, GeoTrillis, Google Earth, Government Tech, GPS, H3, HTML5, iOS, kubernetes, LasTools, LiDAR, Linux, MLD, Mobile GIS, Neo4J, Numpy, Openlayers, OSRM, PDAL, pgRouting, Planter, PostGIS, Postgres, PyTorch, QGIS, Raspiberry PI, Spark, State-of-Art, Tensorflow, UAV, vector tiles, viewshed, VNC, Web Mercator</small>
 
 ---
 
@@ -30,9 +30,9 @@ Things that I want to show... 👀
  *Note: start from the **ArcGIS Enterprise Server 11 for Linux**, the required packages may less than before (just need this `gettext*` package group), you can [check detail here](https://enterprise.arcgis.com/en/system-requirements/latest/linux/arcgis-server-system-requirements.htm)
 
   - [Dockerize **ArcGIS Enterprise Server** 10.0 SP5 For **Linux**](docs/DockerizingArcGISServerForLinux.md)
-  - [**State-of-Art/Government Tech**]-💧Water Resources Planning-[Integrated Network of Scientific Information & GeoHydrologic Tools (backend: **ArcGIS Server**)](https://nednr.nebraska.gov/insight/)(**ArcGIS Javascripts API**+**C3.js**+**HTML5/CSS3**)
-  - [Lab Project]-Enviromental Planning🏫-[Volunteered Geographic Information (**VGI**) Website (backend: **ArcGIS Server**) - YouTube Demo](https://www.youtube.com/watch?v=IKSWJbKdrSA)
-  - [Lab Project]-Enviromental Planning🏫-[A **Mobile GIS** App For Environmental Data Collection (backend: **ArcGIS Server**) - YouTube Demo](https://youtube.com/shorts/Gt--0rIEpqg?si=ea1OCwAmG3g33REO)(**ArcGIS Javascripts API**+**Apache Cordova**+**HTML5/CSS3**)
+  - [**State-of-Art/Government Tech**]-💧Water Resources Planning-[Integrated Network of Scientific Information & GeoHydrologic Tools](https://nednr.nebraska.gov/insight/): <small>**ArcGIS Server**+**ArcGIS Javascripts API**+**C3.js**+**HTML5/CSS3**</small>
+  - [Lab Project]-Enviromental Planning🏫-Volunteered Geographic Information (**VGI**) Website-[YouTube](https://www.youtube.com/watch?v=IKSWJbKdrSA):<small>**ArcGIS Server+ArcGIS Javascripts API**+**HTML5/CSS3**</small>
+  - [Lab Project]-Enviromental Planning🏫-A **Mobile GIS** App For Environmental Data Collection-[YouTube](https://youtube.com/shorts/Gt--0rIEpqg?si=ea1OCwAmG3g33REO): <small>**ArcGIS Server+ArcGIS Javascripts API**+**Apache Cordova**+**HTML5/CSS3** for **Android** & **iOS**</small>
   - [Reference]-[Required packages for install **ArcGIS Enterprise Server 10.x for Linux** on CentOS](https://desktop.arcgis.com/en/system-requirements/10.5/os-limits-linux.htm)
   - [Reference]-[How to install **ArcGIS Enterprise Server for Linux** Silently](https://enterprise.arcgis.com/en/server/11.4/install/linux/silently-install-arcgis-server.htm)
   - [Reference]-[The **ArcGIS Enterprise Server** Life Cycle](https://support.esri.com/en-us/products/arcgis-enterprise/life-cycle)
@@ -47,12 +47,12 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
 ### [](#header-3) **OpenSource Cloud Native Geospatial Platform - GeoServer** (<small>*If budget tight and is your consideration...*</small>) 🙁
 
   - [Dockerize **GeoServer** with **GDAL**/**Vector Tiles** plugins and using **GeoMesa** datastore](docs/GeomesaMac.md)
-  - [Online **Viewshed** App (**3D trajectory analysis**) - YouTube Demo](https://www.youtube.com/watch?v=OkvwTfUE9yc)
+  - Online **Viewshed** App (**3D trajectory analysis**) - [YouTube](https://www.youtube.com/watch?v=OkvwTfUE9yc)
   - [Dockerize **Geoserver** with **GDAL**/**Vector Tiles** plugins](docs/GeoServer.md)
   - [Accessing **GeoTrellis** image server and dynamic tile stitching](docs/Geotrellis.md)
-  - [Map Visualization Using **GeoServer** and **OpenLayers** - YouTube Demo](https://www.youtube.com/watch?v=bAyy-3kzrWs)
-  - [A **Mobile GIS** App By **AngularJS** - YouTube Demo](https://www.youtube.com/watch?v=FDTTBfp-4wE)
-  - [Map Publishing on **GeoServer** - YouTube Demo](https://www.youtube.com/watch?v=GUE5KSlLXWs)
+  - Map Visualization Using **GeoServer** and **OpenLayers** - [YouTube](https://www.youtube.com/watch?v=bAyy-3kzrWs)
+  - A **Mobile GIS** App By **AngularJS** - [YouTube](https://www.youtube.com/watch?v=FDTTBfp-4wE)
+  - Map Publishing on **GeoServer** - [YouTube](https://www.youtube.com/watch?v=GUE5KSlLXWs)
 
 ---
 
@@ -62,7 +62,7 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
   - [Why need to use hexagonal Digital Surface Model (**DSM**)?](docs/WhyUseHexagon.md)
   - [**H3** hexagon visualization on **Google Earth** pro](docs/GoogleEarthH3Vis.md)
   - [Mapping **H3** in **Web Mercator** projection](docs/H3Distortions.md)
-  - [Simple **LiDAR** Data Visualization Tool (Wine + **LasTools**) - YouTube Demo](https://www.youtube.com/watch?v=-3u1CQIp5Hw)
+  - Simple **LiDAR** Data Visualization Tool (Wine + **LasTools**) - [YouTube](https://www.youtube.com/watch?v=-3u1CQIp5Hw)
 
 ---
 
@@ -87,7 +87,7 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
 ---
 
 ### [](#header-3) **Random Geospatial Works & Self Exploration** 🏞️
-  - [How to Add BaseMap in **QGIS** - YouTube Demo](https://www.youtube.com/watch?v=4JESmOrHq5M)
+  - How to Add BaseMap in **QGIS** - [YouTube](https://www.youtube.com/watch?v=4JESmOrHq5M)
   - [A budget build eGPU on Linux for **Tensorflow**, **PyTorch** development](docs/LinuxGPU.md)
   - [P.E.A.N Stack - YouTube Demo](https://www.youtube.com/watch?v=2cR4JLT3pno)
 
@@ -99,7 +99,7 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
 ---
 
 ### [](#header-3) **Motion Pictures - Urban Planning & Architecture** 🌆
-  - [School Lab Project] - [Cornhusker Corridor LiNK to LNK Plan 2013](https://www.youtube.com/watch?v=8Mej2ZBo0wM)
+  - [Lab Project] - Cornhusker Corridor LiNK to LNK Plan 2013 - [YouTube](https://www.youtube.com/watch?v=8Mej2ZBo0wM)
 
 ---
   
