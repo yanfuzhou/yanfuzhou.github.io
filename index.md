@@ -29,25 +29,25 @@ Things that I want to show... 👀
 
  *Note: start from the **ArcGIS Enterprise Server 11 for Linux**, the required packages may less than before (just need this `gettext*` package group), you can [check detail here](https://enterprise.arcgis.com/en/system-requirements/latest/linux/arcgis-server-system-requirements.htm)
 
-  - [**State-of-Art/Government Tech**] - 💧Water Resources Planning - [Integrated Network of Scientific Information & GeoHydrologic Tools (backend: **ArcGIS Server**)](https://nednr.nebraska.gov/insight/) (**ArcGIS Javascripts API** + **C3.js** + + **HTML5/CSS3**)
-  - [School Lab Project] - Enviromental Planning🏫 - [Volunteered Geographic Information (**VGI**) Website (backend: **ArcGIS Server**) - YouTube Demo](https://www.youtube.com/watch?v=IKSWJbKdrSA)
-  - [School Lab Project] - Enviromental Planning🏫 -[A **Mobile GIS** App For Environmental Data Collection (backend: **ArcGIS Server**) - YouTube Demo](https://youtube.com/shorts/Gt--0rIEpqg?si=ea1OCwAmG3g33REO) (**ArcGIS Javascripts API** + **Apache Cordova** + **HTML5/CSS3**)
   - [Dockerize **ArcGIS Enterprise Server** 10.0 SP5 For **Linux**](docs/DockerizingArcGISServerForLinux.md)
-  - [Reference link] - [Required packages for install **ArcGIS Enterprise Server 10.x for Linux** on CentOS](https://desktop.arcgis.com/en/system-requirements/10.5/os-limits-linux.htm)
-  - [Reference link] - [How to install **ArcGIS Enterprise Server for Linux** Silently](https://enterprise.arcgis.com/en/server/11.4/install/linux/silently-install-arcgis-server.htm)
-  - [Reference link] - [The **ArcGIS Enterprise Server** Life Cycle](https://support.esri.com/en-us/products/arcgis-enterprise/life-cycle)
+  - [**State-of-Art/Government Tech**]-💧Water Resources Planning-[Integrated Network of Scientific Information & GeoHydrologic Tools (backend: **ArcGIS Server**)](https://nednr.nebraska.gov/insight/)(**ArcGIS Javascripts API**+**C3.js**+**HTML5/CSS3**)
+  - [Lab Project]-Enviromental Planning🏫-[Volunteered Geographic Information (**VGI**) Website (backend: **ArcGIS Server**) - YouTube Demo](https://www.youtube.com/watch?v=IKSWJbKdrSA)
+  - [Lab Project]-Enviromental Planning🏫-[A **Mobile GIS** App For Environmental Data Collection (backend: **ArcGIS Server**) - YouTube Demo](https://youtube.com/shorts/Gt--0rIEpqg?si=ea1OCwAmG3g33REO)(**ArcGIS Javascripts API**+**Apache Cordova**+**HTML5/CSS3**)
+  - [Reference]-[Required packages for install **ArcGIS Enterprise Server 10.x for Linux** on CentOS](https://desktop.arcgis.com/en/system-requirements/10.5/os-limits-linux.htm)
+  - [Reference]-[How to install **ArcGIS Enterprise Server for Linux** Silently](https://enterprise.arcgis.com/en/server/11.4/install/linux/silently-install-arcgis-server.htm)
+  - [Reference]-[The **ArcGIS Enterprise Server** Life Cycle](https://support.esri.com/en-us/products/arcgis-enterprise/life-cycle)
   
 Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without breaking the frontend:
 
-  - [Reference link] - [How to make **GeoServer** mimick the **ArcGIS Server Restful API**](https://docs.geoserver.org/main/en/user/community/gsr/index.html)
-  - [Reference link] - [Letting **GeoServer** to use the **ESRI's Geodatabase**](https://docs.geoserver.org/2.19.x/en/user/community/arcsde/index.html)
+  - [Reference]-[How to make **GeoServer** mimick the **ArcGIS Server Restful API**](https://docs.geoserver.org/main/en/user/community/gsr/index.html)
+  - [Reference]-[Letting **GeoServer** to use the **ESRI's Geodatabase**](https://docs.geoserver.org/2.19.x/en/user/community/arcsde/index.html)
 
 ---
 
 ### [](#header-3) **OpenSource Cloud Native Geospatial Platform - GeoServer** (<small>*If budget tight and is your consideration...*</small>) 🙁
 
-  - [Online **Viewshed** App (**3D trajectory analysis**) - YouTube Demo](https://www.youtube.com/watch?v=OkvwTfUE9yc)
   - [Dockerize **GeoServer** with **GDAL**/**Vector Tiles** plugins and using **GeoMesa** datastore](docs/GeomesaMac.md)
+  - [Online **Viewshed** App (**3D trajectory analysis**) - YouTube Demo](https://www.youtube.com/watch?v=OkvwTfUE9yc)
   - [Dockerize **Geoserver** with **GDAL**/**Vector Tiles** plugins](docs/GeoServer.md)
   - [Accessing **GeoTrellis** image server and dynamic tile stitching](docs/Geotrellis.md)
   - [Map Visualization Using **GeoServer** and **OpenLayers** - YouTube Demo](https://www.youtube.com/watch?v=bAyy-3kzrWs)
@@ -71,12 +71,12 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
   - [The world's 1st RC Cassette **Planter**](docs/CassettePlanter.md)
   - [DIYMall DY-880TTL **GPS** module on **Raspiberry PI**](docs/DY880TTL.md)
   - [QMC5883L Magnet **Compass**](docs/PyQMC5883L.md)
-  - [Reference link] - [Most popular routing engine - **OSRM** (**Contraction Hierarchies (CH)**, **Multi-Level Dijkstra (MLD)**)](https://github.com/Project-OSRM/osrm-backend) ([demo](http://map.project-osrm.org/))
-  - [Reference link] - [Open Street Map (**OSM**) Wiki Reference](https://wiki.openstreetmap.org/wiki/Open_Source_Routing_Machine)
-  - [Reference link] - [**OSRM** Project Page](https://project-osrm.org/)
-  - [Reference link] - [Parallel Routing Analysis using **OSRM** and **Postgres** in **Spark**](https://github.com/UI-Research/spark-osrm)
-  - [Reference link] - [**OSRM** + **H3** + **Spark** - A New Routing Estimation Method](https://careersatdoordash.com/blog/doordash-fast-travel-estimates/)
-  - [Reference link] - [Alternative Routing Engine besides **pgRouting** and **OSRM** - the **"Neo4J"**](https://neo4j.com/blog/developer/routing-web-app-neo4j-openstreetmap-leafletjs/)
+  - [Reference]-[Most popular routing engine - **OSRM** (**Contraction Hierarchies (CH)**, **Multi-Level Dijkstra (MLD)**)](https://github.com/Project-OSRM/osrm-backend) ([demo](http://map.project-osrm.org/))
+  - [Reference]-[Open Street Map (**OSM**) Wiki Reference](https://wiki.openstreetmap.org/wiki/Open_Source_Routing_Machine)
+  - [Reference]-[**OSRM** Project Page](https://project-osrm.org/)
+  - [Reference]-[Parallel Routing Analysis using **OSRM** and **Postgres** in **Spark**](https://github.com/UI-Research/spark-osrm)
+  - [Reference]-[**OSRM** + **H3** + **Spark** - A New Routing Estimation Method](https://careersatdoordash.com/blog/doordash-fast-travel-estimates/)
+  - [Reference]-[Alternative Routing Engine besides **pgRouting** and **OSRM** - the **"Neo4J"**](https://neo4j.com/blog/developer/routing-web-app-neo4j-openstreetmap-leafletjs/)
 
 ---
   
