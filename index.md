@@ -33,7 +33,7 @@ Things that I want to show... 👀
   - [Dockerize **ArcGIS Enterprise Server** 10.0 SP5 For **Linux**](docs/DockerizingArcGISServerForLinux.md)
   - [**State-of-Art/Gov. Tech**]-💧Water Resources Planning-[Integrated Network of Scientific Information & GeoHydrologic Tools](https://nednr.nebraska.gov/insight/): <small>**ArcGIS Server**+**ArcGIS Javascripts API**+**C3.js**+**HTML5/CSS3**</small>
   - [Lab Project]-Enviromental Planning🏫-Volunteered Geographic Information (**VGI**) Website-[YouTube](https://www.youtube.com/watch?v=IKSWJbKdrSA):<small>**ArcGIS Server+ArcGIS Javascripts API**+**HTML5/CSS3**</small>
-  - [Lab Project]-Enviromental Planning🏫-A **Mobile GIS** App For Environmental Data Collection-[YouTube](https://youtube.com/shorts/Gt--0rIEpqg?si=ea1OCwAmG3g33REO): <small>**ArcGIS Server+ArcGIS Javascripts API**+**Apache Cordova**+**HTML5/CSS3** for **Android** & **iOS**</small>
+  - [Lab Project]-Enviromental Planning🏫-A **Mobile GIS** App For Environmental Data Collection-[YouTube](https://youtube.com/shorts/Gt--0rIEpqg?si=ea1OCwAmG3g33REO): <small>**ArcGIS Server+ArcGIS Javascripts API**+**Apache Cordova**+**HTML5/CSS3** for **Android**,**iOS**</small>
   - [Reference]-[Required packages for install **ArcGIS Enterprise Server 10.x for Linux** on CentOS](https://desktop.arcgis.com/en/system-requirements/10.5/os-limits-linux.htm)
   - [Reference]-[How to install **ArcGIS Enterprise Server for Linux** Silently](https://enterprise.arcgis.com/en/server/11.4/install/linux/silently-install-arcgis-server.htm)
   - [Reference]-[The **ArcGIS Enterprise Server** Life Cycle](https://support.esri.com/en-us/products/arcgis-enterprise/life-cycle)
