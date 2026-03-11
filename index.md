@@ -15,15 +15,43 @@ layout: yanfu
 
 - [LinkedIn](www.linkedin.com/in/yanfu-z-566a9889).
 
+#### [](#header-4) **How to access my interactive live demonstrations**
+
+<details>
+<summary>For more details</summary>
+<br>My interactive live demos are hosted on my personal device for development and testing. *Because the system is not running 24/7, please use the [Send Inquiry](mailto:yanfu.zhou@outlook.com) link to let me know when you plan to view the demos.*
+
+**Please be ware that the self-signed certificate will trigger security warnings in browsers when you visit my site, and there is a way to bypass that warnings documented in here:*
+
+<details>
+<summary>How to temporarily bypass (*Chrome, Edge, Firefox*) warnings</summary>
+
+- *Google Chrome/Microsoft Edge:* On the warning page, click the Advanced button, then scroll down and click the "Proceed to \[website address\](unsafe)" or "Continue to" link. A quick trick in Chrome is to simply type thisisunsafe anywhere on the error page.
+- *Mozilla Firefox:* Click the Advanced button, then click Accept the Risk and Continue.
+</details>
+
+Access to my interactive live demos requires login credentials. I will provide the login details in my response email. The demos available for viewing are listed below.
+
+- [Georeferencing UAV Orthos](https://geo2map.com/uav-georeference/qaqc/) (Saving cost for your expensive (**$$$**) image stitching process)
+- [Online Viewshed Analysis](http://geo2map.com/viewshed-master/) (**ESRI** charges this functionality in their Spatial/3D Analyst extensions for **~$650/yr** for enterprise users)
+- [The ArcGIS Server Feature Service](http://geo2map.com/arcgis) (Published the service on an **ArcGIS Server for Linux** running as a container, no need for a separate license for ArcGIS Server on Kubernetes, which priced **~$50,000/yr** for 64 vCPUs)
+
+For future road map, in the next few years......
+
+- Changing all my existing demonstrations to use secured TCP protocol (HTTPS).
+- Get a trusted certificate from [Let's encrypt](https://letsencrypt.org/)(by doing this, security warnings in browsers will be gone).
+		
+</details>
+
 ##### [](#header-5) **Here are the key words on this page!** 🔑
 <details>
-  <summary>Click to see</summary>
-	3D print, 3D trajactory, A*, Algorithm, Android, AngularJS, Apache Cordova, ArcGIS Enterprise Server, ArcGIS Javascripts API, ArcGIS Server Restful API, Bambu Lab X-1 Carbon, CH, Compass, CSS3, DEM, Dijkstra, DSM, ESRI's geodatabase, GDAL, GeoMesa, GeoServer, GeoTrillis, Google Earth, Government Tech, GPS, H3, HTML5, iOS, kubernetes, LasTools, LiDAR, Linux, MLD, Mobile GIS, Neo4J, Numpy, Openlayers, OSRM, PDAL, pgRouting, Planter, PostGIS, Postgres, PyTorch, QGIS, Raspiberry PI, Spark, State-of-Art, Tensorflow, UAV, vector tiles, viewshed, VNC, Web Mercator
+<summary>Click to see</summary>
+<br>3D print, 3D trajactory, A*, Algorithm, Android, AngularJS, Apache Cordova, ArcGIS Enterprise Server, ArcGIS Javascripts API, ArcGIS Server Restful API, Bambu Lab X-1 Carbon, CH, Compass, CSS3, DEM, Dijkstra, DSM, ESRI's geodatabase, GDAL, GeoMesa, GeoServer, GeoTrillis, Google Earth, Government Tech, GPS, H3, HTML5, iOS, kubernetes, LasTools, LiDAR, Linux, MLD, Mobile GIS, Neo4J, Numpy, Openlayers, OSRM, PDAL, pgRouting, Planter, PostGIS, Postgres, PyTorch, QGIS, Raspiberry PI, Spark, State-of-Art, Tensorflow, UAV, vector tiles, viewshed, VNC, Web Mercator
 </details>
 
 ---
 
-Things that I want to show... 👀
+## Things that I want to show......👀
 
 ### [](#header-3) **ESRI's Geospatial Platform - ArcGIS Enterprise Server** (<small>*If budget isn't your consideration...*</small>) 😊
 
