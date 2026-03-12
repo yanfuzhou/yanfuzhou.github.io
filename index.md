@@ -23,30 +23,7 @@ layout: yanfu
 
 ---
 
-## [](#header-2) My interactive live demos......👀
-
-My interactive live demos are hosted on my personal device for development and testing. *Because the system is not running 24/7, please use the [Send Inquiry](mailto:yanfu.zhou@outlook.com) link to let me know when you plan to view the demos.*
-
-**Please be ware that the self-signed certificate will trigger security warnings in browsers when you visit my site, and there is a way to bypass that warnings documented in here:*
-
-How to temporarily bypass (*Chrome, Edge, Firefox*) warnings
-
-- *Google Chrome/Microsoft Edge:* On the warning page, click the Advanced button, then scroll down and click the "Proceed to \[website address\](unsafe)" or "Continue to" link. A quick trick in Chrome is to simply type thisisunsafe anywhere on the error page.
-- *Mozilla Firefox:* Click the Advanced button, then click Accept the Risk and Continue.
-
-Access to my interactive live demos requires login credentials. I will provide the login details in my response email. The demos available for viewing are listed below.
-
-- [Georeferencing UAV Orthos](https://geo2map.com/uav-georeference/qaqc/) (Saving cost for your expensive (**$$$**) image stitching process)
-- [Online Viewshed Analysis](http://geo2map.com/viewshed-master/) (**ESRI** charges this functionality in their Spatial/3D Analyst extensions for **~$650/yr** for enterprise users)
-- [The ArcGIS Server Feature Service](http://geo2map.com/arcgis/rest/services/demo/routing_cost/FeatureServer) (Published the service on an **ArcGIS Server for Linux** running as a container, no need for a separate license for ArcGIS Server on Kubernetes, which priced **~$50,000/yr** for 64 vCPUs)
-
-For future road map, in the next few years......
-
-- Changing all my existing demonstrations to use secured TCP protocol (HTTPS).
-- Get a trusted certificate from [Let's encrypt](https://letsencrypt.org/) (by doing this, security warnings in browsers will be gone).
-- Purchase a used bare-metal server and host my demos on it so they can run 24/7. This would actually be cheaper than renting an **R5.4xlarge EC2 instance** on AWS.
-
-## [](#header-2) My static pre-recorded demos......👀
+## [](#header-2) I. My static pre-recorded demos......👀
 
 ### [](#header-3) **ESRI's Geospatial Platform - ArcGIS Enterprise Server** (<small>*If budget isn't your consideration...*</small>) 😊
 
@@ -109,6 +86,33 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
   
 ---
 
+## [](#header-2) II. My interactive live demos......👀
+
+My interactive live demos are hosted on my personal device for development and testing. *Because the system is not running 24/7, please use the [Send Inquiry](mailto:yanfu.zhou@outlook.com) link to let me know when you plan to view the demos.*
+
+**Please be ware that the self-signed certificate will trigger security warnings in browsers when you visit my site, and there is a way to bypass that warnings documented in here:*
+
+How to temporarily bypass (*Chrome, Edge, Firefox*) warnings
+
+- *Google Chrome/Microsoft Edge:* On the warning page, click the Advanced button, then scroll down and click the "Proceed to \[website address\](unsafe)" or "Continue to" link. A quick trick in Chrome is to simply type thisisunsafe anywhere on the error page.
+- *Mozilla Firefox:* Click the Advanced button, then click Accept the Risk and Continue.
+
+Access to my interactive live demos requires login credentials. I will provide the login details in my response email. The demos available for viewing are listed below.
+
+- [Georeferencing UAV Orthos](https://geo2map.com/uav-georeference/qaqc/) (Saving cost for your expensive (**$$$**) image stitching process)
+- [Online Viewshed Analysis](http://geo2map.com/viewshed-master/) (**ESRI** charges this functionality in their Spatial/3D Analyst extensions for **~$650/yr** for enterprise users)
+- [The ArcGIS Server Feature Service](http://geo2map.com/arcgis/rest/services/demo/routing_cost/FeatureServer) (Published the service on an **ArcGIS Server for Linux** running as a container, no need for a separate license for ArcGIS Server on Kubernetes, which priced **~$50,000/yr** for 64 vCPUs)
+
+For future road map, in the next few years......
+
+- Changing all my existing demonstrations to use secured TCP protocol (HTTPS).
+- Get a trusted certificate from [Let's encrypt](https://letsencrypt.org/) (by doing this, security warnings in browsers will be gone).
+- Purchase a used bare-metal server and host my demos on it so they can run 24/7. This would actually be cheaper and less maintenance work than renting an **R5.4xlarge EC2 instance** on AWS.
+
+---
+
+## [](#header-2) III. Miscellaneous works......👀
+
 ### [](#header-3) **Random Geospatial Works & Self Exploration** 🏞️
   - How to Add BaseMap in **QGIS** - [YouTube](https://www.youtube.com/watch?v=4JESmOrHq5M)
   - [A budget build eGPU on Linux for **Tensorflow**, **PyTorch** development](docs/LinuxGPU.md)
@@ -136,4 +140,4 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
 
 - [my Docker Hub](https://hub.docker.com/u/yzhou16) & [my GitHub Repo](https://github.com/yanfuzhou?tab=repositories)
 
-<br><br><br>
+<br><br>
