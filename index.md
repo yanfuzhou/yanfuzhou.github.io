@@ -14,18 +14,19 @@ layout: yanfu
 #### [](#header-4) **Here are the key words on this page!** 🔑
 <details>
 <summary>Click to see</summary>
-<br>3D print, 3D trajactory, A*, Algorithm, Android, AngularJS, Apache Cordova, ArcGIS Enterprise Server, ArcGIS Javascripts API, ArcGIS Server Restful API, AWS EC2, Bambu Lab X-1 Carbon, CH, Compass, CSS3, DEM, Dijkstra, DSM, ESRI's geodatabase, GDAL, GeoMesa, GeoServer, GeoTrillis, Google Earth, Government Tech, GPS, H3, HTML5, iOS, kubernetes, LasTools, LiDAR, Linux, MLD, Mobile GIS, Neo4J, Numpy, Openlayers, OSRM, PDAL, pgRouting, Planter, PostGIS, Postgres, PyTorch, QGIS, Raspiberry PI, Spark, State-of-Art, Tensorflow, UAV, vector tiles, viewshed, VNC, Web Mercator
+<br>3D print, 3D trajactory, A*, Algorithm, Android, AngularJS, Apache Cordova, ArcGIS Enterprise Server, ArcGIS Javascripts API, ArcGIS Server Restful API, AWS EC2, Bambu Lab X-1 Carbon, CH, Compass, CSS3, DEM, Dijkstra, DSM, ESRI's geodatabase, GDAL, GeoMesa, GeoServer, GeoTrillis, Google Earth, Government Tech, GPS, H3, HTML5, iOS, kubernetes, LasTools, LiDAR, Linux, MacOSX, MLD, Mobile GIS, Neo4J, Numpy, Openlayers, OSRM, PDAL, pgRouting, Planter, PostGIS, Postgres, PyTorch, QGIS, Raspiberry PI, Spark, State-of-Art, Tensorflow, UAV, vector tiles, viewshed, VNC, Web Mercator
 </details>
 
 ---
 
 ## [](#header-2) I. My static pre-recorded demos......👀
 
-### [](#header-3) **ESRI's Geospatial Platform - ArcGIS Enterprise Server** (<small>*If budget isn't your consideration...*</small>) 😊
+### [](#header-3) **ESRI's Geospatial Platform - ArcGIS Enterprise Server** (<small>*If $$$$$ isn't your consideration...*</small>) 😊
 
  *Note: start from the **ArcGIS Enterprise Server 11 for Linux**, the required packages may less than before (just need this `gettext*` package group), you can [check detail here](https://enterprise.arcgis.com/en/system-requirements/latest/linux/arcgis-server-system-requirements.htm)
 
-  - [Dockerize **ArcGIS Enterprise Server** 10.0 SP5 For **Linux**](docs/DockerizingArcGISServerForLinux.md)
+  - [How to install **ArcGIS Enterprise** on **MacOSX** eventhough it's not natively supported] { Tutorials available soon!!! }
+  - [Dockerize **ArcGIS Enterprise Server** 10.0 SP5 For **Linux**](docs/DockerizingArcGISServerForLinux.md) (avoiding **~$50K/year** Kubernetes licensing)
   - [**State-of-Art/Gov. Tech**]-💧Water Resources Planning-[Integrated Network of Scientific Information & GeoHydrologic Tools](https://nednr.nebraska.gov/insight/): <small>**ArcGIS Server**+**ArcGIS Javascripts API**+**C3.js**+**HTML5/CSS3**</small>
   - [Lab Project]-Enviromental Planning🏫-Volunteered Geographic Information (**VGI**) Website-[YouTube](https://www.youtube.com/watch?v=IKSWJbKdrSA):<small>**ArcGIS Server+ArcGIS Javascripts API**+**HTML5/CSS3**</small>
   - [Lab Project]-Enviromental Planning🏫-A **Mobile GIS** App For Environmental Data Collection-[YouTube](https://youtube.com/shorts/Gt--0rIEpqg?si=ea1OCwAmG3g33REO): <small>**ArcGIS Server+ArcGIS Javascripts API**+**Apache Cordova**+**HTML5/CSS3** for **Android**,**iOS**</small>
@@ -40,10 +41,10 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
 
 ---
 
-### [](#header-3) **OpenSource Cloud Native Geospatial Platform - GeoServer** (<small>*If budget tight and is your consideration...*</small>) 🙁
+### [](#header-3) **OpenSource Cloud Native Geospatial Platform - GeoServer** (<small>*If $$ is your consideration...*</small>) 🙁
 
-  - [Dockerize **GeoServer** with **GDAL**/**Vector Tiles** plugins and using **GeoMesa** datastore](docs/GeomesaMac.md)
-  - Online **Viewshed** App (**3D trajectory analysis**) - [YouTube](https://www.youtube.com/watch?v=OkvwTfUE9yc)
+  - [Dockerize **GeoServer** with **GDAL**/**Vector Tiles** plugins and using **GeoMesa** datastore](docs/GeomesaMac.md) - One of alternatives to **ArcGIS Enterprise**
+  - Online **Viewshed** App (**3D trajectory analysis**) - **ESRI** offers this capability via **Spatial/3D Analyst** (**~$650/year**) - [YouTube](https://www.youtube.com/watch?v=OkvwTfUE9yc)
   - [Dockerize **Geoserver** with **GDAL**/**Vector Tiles** plugins](docs/GeoServer.md)
   - [Accessing **GeoTrellis** image server and dynamic tile stitching](docs/Geotrellis.md)
   - Map Visualization Using **GeoServer** and **OpenLayers** - [YouTube](https://www.youtube.com/watch?v=bAyy-3kzrWs)
@@ -77,7 +78,7 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
 ---
   
 ### [](#header-3) **Drone Image Stitching - UAV Breeding Crops** 🛩️
-  - [Direct georeferencing **UAV** images](docs/UavDirectGeoreferencing.md)
+  - [Direct georeferencing **UAV** images](docs/UavDirectGeoreferencing.md) - Cutting costs for (**$$$**) image stitching
   - [Quadrilateral Transformation **Algorithm**](docs/QuadrilateralTransformation.md)
   
 ---
@@ -95,9 +96,9 @@ How to temporarily bypass (*Chrome, Edge, Firefox*) warnings
 
 Access to my interactive live demos requires login credentials. I will provide the login details in my response email. The demos available for viewing are listed below.
 
-- [Georeferencing UAV Orthos](https://geo2map.com/uav-georeference/qaqc/) (Saving cost for your expensive (**$$$**) image stitching process)
-- [Online Viewshed Analysis](http://geo2map.com/viewshed-master/) (**ESRI** charges this functionality in their Spatial/3D Analyst extensions for **~$650/yr** for enterprise users)
-- [The ArcGIS Server Feature Service](http://geo2map.com/arcgis/rest/services/demo/routing_cost/FeatureServer) (Published the service on an **ArcGIS Server for Linux** running as a container, no need for a separate license for ArcGIS Server on Kubernetes, which priced **~$50,000/yr** for 64 vCPUs)
+- [Georeferencing UAV Orthos](https://geo2map.com/uav-georeference/qaqc/) Saving cost for your expensive (**$$$**) image stitching process
+- [Online Viewshed Analysis](http://geo2map.com/viewshed-master/) This functionality is available in ESRI’s **Spatial/3D Analyst** extensions (**~$650/year** for enterprise users)
+- [The ArcGIS Server Feature Service](http://geo2map.com/arcgis/rest/services/demo/routing_cost/FeatureServer) Published on **ArcGIS Server for Linux** running in a container, avoiding the **ArcGIS Server on Kubernetes** license (**~$50K/year** for 64 vCPUs).
 
 For future road map, in the next few years......
 
