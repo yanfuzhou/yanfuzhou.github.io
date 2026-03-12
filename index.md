@@ -2,11 +2,7 @@
 layout: yanfu
 ---
 
-# [](#header-1) **Hello, World! This is Yanfu's portfolio** 🎉 🎊 🎈
-
----
-
-#### [](#header-4) **Summary** 😎 <small>(This is generated from the ChatGPT after I showed it this page! 😂)</small>
+### [](#header-3) **Self-introduction** 😎 <small>(This is generated from the ChatGPT after I showed it this page! 😂)</small>
 <middle>Hi, I’m Yanfu Zhou. I’ve been working in the geospatial industry for more than 10 years, and I’m passionate about geospatial technologies and building systems that turn complex spatial data into practical, scalable solutions.</middle>
 
 <middle>This portfolio highlights selected projects across LiDAR processing, UAV imagery, routing engines, IoT/GPS tracking, and cloud-native spatial infrastructure using tools such as Python, PostGIS, AWS, and GCP. Throughout my career in government, agriculture, and enterprise environments, I’ve focused on transforming research-driven and manual workflows into efficient, production-ready platforms.</middle>
@@ -15,7 +11,7 @@ layout: yanfu
 
 - [LinkedIn](www.linkedin.com/in/yanfu-z-566a9889).
 
-##### [](#header-5) **Here are the key words on this page!** 🔑
+#### [](#header-4) **Here are the key words on this page!** 🔑
 <details>
 <summary>Click to see</summary>
 <br>3D print, 3D trajactory, A*, Algorithm, Android, AngularJS, Apache Cordova, ArcGIS Enterprise Server, ArcGIS Javascripts API, ArcGIS Server Restful API, AWS EC2, Bambu Lab X-1 Carbon, CH, Compass, CSS3, DEM, Dijkstra, DSM, ESRI's geodatabase, GDAL, GeoMesa, GeoServer, GeoTrillis, Google Earth, Government Tech, GPS, H3, HTML5, iOS, kubernetes, LasTools, LiDAR, Linux, MLD, Mobile GIS, Neo4J, Numpy, Openlayers, OSRM, PDAL, pgRouting, Planter, PostGIS, Postgres, PyTorch, QGIS, Raspiberry PI, Spark, State-of-Art, Tensorflow, UAV, vector tiles, viewshed, VNC, Web Mercator
