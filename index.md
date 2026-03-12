@@ -44,7 +44,7 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
 ### [](#header-3) **OpenSource Cloud Native Geospatial Platform - GeoServer** (<small>*If $$ is your consideration...*</small>) 🙁
 
   - [Dockerize **GeoServer** with **GDAL**/**Vector Tiles** plugins and using **GeoMesa** datastore](docs/GeomesaMac.md) - One of alternatives to **ArcGIS Enterprise**
-  - Online **Viewshed** App (**3D trajectory analysis**) - **ESRI** offers this capability via **Spatial/3D Analyst** (**~$650/year**) - [YouTube](https://www.youtube.com/watch?v=OkvwTfUE9yc)
+  - Online **Viewshed** App (**3D trajectory analysis**) - **ESRI** offers this capability via **Spatial/3D Analyst** (**~$650/year**) - [YouTube](https://www.youtube.com/watch?v=OkvwTfUE9yc): <small>**GeoServer**+**Flask**+**OpenLayers**+**HTML5/CSS3**</small>
   - [Dockerize **Geoserver** with **GDAL**/**Vector Tiles** plugins](docs/GeoServer.md)
   - [Accessing **GeoTrellis** image server and dynamic tile stitching](docs/Geotrellis.md)
   - Map Visualization Using **GeoServer** and **OpenLayers** - [YouTube](https://www.youtube.com/watch?v=bAyy-3kzrWs)
