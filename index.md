@@ -21,7 +21,7 @@ layout: yanfu
 
 ## [](#header-2) I. My static pre-recorded demos......👀
 
-### [](#header-3) **ESRI's Geospatial Platform - ArcGIS Enterprise Server** (<small>*If $$$$$ isn't your consideration...*</small>) 😊
+### [](#header-3) **ESRI's Geospatial Platform - ArcGIS Enterprise Server** (*If 💰💵💳 isn't your consideration...*) 😊
 
  *Note: start from the **ArcGIS Enterprise Server 11 for Linux**, the required packages may less than before (just need this `gettext*` package group), you can [check detail here](https://enterprise.arcgis.com/en/system-requirements/latest/linux/arcgis-server-system-requirements.htm)
 
@@ -41,7 +41,7 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
 
 ---
 
-### [](#header-3) **OpenSource Cloud Native Geospatial Platform - GeoServer** (<small>*If $$ is your consideration...*</small>) 🙁
+### [](#header-3) **OpenSource Cloud Native Geospatial Platform - GeoServer** (*If 💸 is your consideration...*) 🙁
 
   - [Dockerize **GeoServer** with **GDAL**/**Vector Tiles** plugins and using **GeoMesa** datastore](docs/GeomesaMac.md) - One of alternatives to **ArcGIS Enterprise**
   - Online **Viewshed** App (**3D trajectory analysis**) - **ESRI** offers this capability via **Spatial/3D Analyst** (**~$650/year**) - [YouTube](https://www.youtube.com/watch?v=OkvwTfUE9yc): <small>**GeoServer**+**Flask**+**OpenLayers**+**HTML5/CSS3**</small>
