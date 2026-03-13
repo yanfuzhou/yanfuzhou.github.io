@@ -14,7 +14,7 @@ layout: yanfu
 #### [](#header-4) **Here are the key words on this page!** 🔑
 <details>
 <summary>Click to see</summary>
-<br>3D print, 3D trajactory, A*, Algorithm, Android, AngularJS, Apache Cordova, ArcGIS Enterprise Server, ArcGIS Javascripts API, ArcGIS Server Restful API, AWS EC2, Bambu Lab X-1 Carbon, CH, Compass, CSS3, DEM, Dijkstra, DSM, ESRI's geodatabase, GDAL, GeoMesa, GeoServer, GeoTrillis, Google Earth, Government Tech, GPS, H3, HTML5, iOS, kubernetes, LasTools, LiDAR, Linux, MacOSX, MLD, Mobile GIS, Neo4J, Numpy, Openlayers, OSRM, PDAL, pgRouting, Planter, PostGIS, Postgres, PyTorch, QGIS, Raspiberry PI, Spark, State-of-Art, Tensorflow, UAV, vector tiles, viewshed, VNC, Web Mercator
+<br>3D print, 3D trajactory, A*, Algorithm, Android, AngularJS, Apache Cordova, ArcGIS Enterprise Server, ArcGIS Javascripts API, ArcGIS Server Restful API, AWS EC2, Bambu Lab X-1 Carbon, CH, Compass, CSS3, DEM, Dijkstra, DSM, ESRI's geodatabase, GDAL, GeoMesa, GeoServer, GeoTrillis, Google Earth, Government Tech, GPS, H3, HTML5, iOS, kubernetes, LasTools, LiDAR, Linux, MacOSX, MLD, Mobile GIS, Neo4J, Numpy, Openlayers, OSRM, PDAL, pgRouting, Planter, PostGIS, Postgres, PyTorch, QGIS, Raspiberry PI, SQL Server, Spark, State-of-Art, Tensorflow, UAV, vector tiles, viewshed, VNC, Web Mercator
 </details>
 
 ---
@@ -27,9 +27,9 @@ layout: yanfu
 
   - [How to Run **ArcGIS Server** Anywhere: **macOS** and **Unsupported Linux** with Containers] { Tutorials available soon!!! }
   - [Dockerize **ArcGIS Enterprise Server** 10.0 SP5 For **Linux**](docs/DockerizingArcGISServerForLinux.md) (avoiding **~$50K/year** Kubernetes licensing)
-  - [**State-of-Art/Gov. Tech**]-💧Water Resources Planning-[Integrated Network of Scientific Information & GeoHydrologic Tools](https://nednr.nebraska.gov/insight/): <small>**ArcGIS Server**+**ArcGIS Javascripts API**+**C3.js**+**HTML5/CSS3**</small>
-  - [Lab Project]-Enviromental Planning🏫-Volunteered Geographic Information (**VGI**) Website-[YouTube](https://www.youtube.com/watch?v=IKSWJbKdrSA):<small>**ArcGIS Server+ArcGIS Javascripts API**+**HTML5/CSS3**</small>
-  - [Lab Project]-Enviromental Planning🏫-A **Mobile GIS** App For Environmental Data Collection-[YouTube](https://youtube.com/shorts/Gt--0rIEpqg?si=ea1OCwAmG3g33REO): <small>**ArcGIS Server+ArcGIS Javascripts API**+**Apache Cordova**+**HTML5/CSS3** for **Android**,**iOS**</small>
+  - [**State-of-Art/Gov. Tech**]-💧Water Resources Planning-[Integrated Network of Scientific Information & GeoHydrologic Tools](https://nednr.nebraska.gov/insight/): <small>**ArcGIS Server**+**SQL Server**+**ArcGIS Javascripts API**+**C3.js**+**HTML5/CSS3**</small>
+  - [Lab Project]-Enviromental Planning🏫-Volunteered Geographic Information (**VGI**) Website-[YouTube](https://www.youtube.com/watch?v=IKSWJbKdrSA):<small>**ArcGIS Server**+**SQL Server**+**ArcGIS Javascripts API**+**HTML5/CSS3**</small>
+  - [Lab Project]-Enviromental Planning🏫-A **Mobile GIS** App For Environmental Data Collection-[YouTube](https://youtube.com/shorts/Gt--0rIEpqg?si=ea1OCwAmG3g33REO): <small>**ArcGIS Server**+**SQL Server**+**ArcGIS Javascripts API**+**Apache Cordova**+**HTML5/CSS3** for **Android**,**iOS**</small>
   - [Reference]-[Required packages for install **ArcGIS Enterprise Server 10.x for Linux** on CentOS](https://desktop.arcgis.com/en/system-requirements/10.5/os-limits-linux.htm)
   - [Reference]-[How to install **ArcGIS Enterprise Server for Linux** Silently](https://enterprise.arcgis.com/en/server/11.4/install/linux/silently-install-arcgis-server.htm)
   - [Reference]-[The **ArcGIS Enterprise Server** Life Cycle](https://support.esri.com/en-us/products/arcgis-enterprise/life-cycle)
@@ -44,7 +44,7 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
 ### [](#header-3) **OpenSource Cloud Native Geospatial Platform - GeoServer** <small>(*If budget is your consideration......*)</small> 🙁
 
   - [Dockerize **GeoServer** with **GDAL**/**Vector Tiles** plugins and using **GeoMesa** datastore](docs/GeomesaMac.md) - One of alternatives to **ArcGIS Enterprise**
-  - Online **Viewshed** App (**3D trajectory analysis**) - **ESRI** offers this capability via **Spatial/3D Analyst** (**~$650/year**) - [YouTube](https://www.youtube.com/watch?v=OkvwTfUE9yc): <small>**GeoServer**+**Flask**+**OpenLayers**+**HTML5/CSS3**</small>
+  - Online **Viewshed** App (**3D trajectory analysis**) - **ESRI** offers this capability via **Spatial/3D Analyst** (**~$650/year**) - [YouTube](https://www.youtube.com/watch?v=OkvwTfUE9yc): <small>**GeoServer**+**PostgresSQL/PostGIS**+**Flask**+**OpenLayers**+**HTML5/CSS3**</small>
   - [Dockerize **Geoserver** with **GDAL**/**Vector Tiles** plugins](docs/GeoServer.md)
   - [Accessing **GeoTrellis** image server and dynamic tile stitching](docs/Geotrellis.md)
   - Map Visualization Using **GeoServer** and **OpenLayers** - [YouTube](https://www.youtube.com/watch?v=bAyy-3kzrWs)
