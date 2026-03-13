@@ -14,7 +14,7 @@ layout: yanfu
 #### [](#header-4) **Here are the key words on this page!** 🔑
 <details>
 <summary>Click to see</summary>
-<br>3D print, 3D trajactory, A*, Algorithm, Android, AngularJS, Apache Cordova, ArcGIS Enterprise Server, ArcGIS Javascripts API, ArcGIS Server Restful API, AWS EC2, Bambu Lab X-1 Carbon, CH, Compass, CSS3, DEM, Dijkstra, DSM, ESRI's geodatabase, GDAL, GeoMesa, GeoServer, GeoTrillis, Google Earth, Government Tech, GPS, H3, HTML5, iOS, kubernetes, LasTools, LiDAR, Linux, MacOSX, MLD, Mobile GIS, Neo4J, Numpy, Openlayers, OSRM, PDAL, pgRouting, Planter, PostGIS, Postgres, PyTorch, QGIS, Raspiberry PI, scikit-learn, SQL Server, Spark, State-of-Art, Tensorflow, UAV, vector tiles, viewshed, VNC, Web Mercator
+<br>3D print, 3D trajactory, A*, Accumulo, Algorithm, Android, AngularJS, Apache Cordova, ArcGIS Enterprise Server, ArcGIS Javascripts API, ArcGIS Server Restful API, AWS EC2, Bambu Lab X-1 Carbon, CH, Compass, CSS3, DEM, Dijkstra, DSM, ESRI's geodatabase, GDAL, GeoMesa, GeoServer, GeoTrillis, Google Earth, Government Tech, GPS, H3, HTML5, iOS, kubernetes, LasTools, LiDAR, Linux, MacOSX, MLD, Mobile GIS, Neo4J, Numpy, Openlayers, OSRM, PDAL, pgRouting, Planter, PostGIS, Postgres, PyTorch, QGIS, Raspiberry PI, scikit-learn, SQL Server, Spark, State-of-Art, Tensorflow, UAV, vector tiles, viewshed, VNC, Web Mercator
 </details>
 
 ---
@@ -25,26 +25,26 @@ layout: yanfu
 
 <small>Tech Stack:  **ArcGIS Server**, **SQL Server**, **ArcGIS Javascripts API**, **ArcGIS SDK for iOS/Android**, **Apache Cordova**, **C3.js**, **HTML5/CSS3**</small>
 
-  - [How to Run **ArcGIS Server** Anywhere: **macOS** and **Unsupported Linux** with Containers] { Tutorials available soon!!! }
-  - [Dockerize **ArcGIS Enterprise Server** 10.0 SP5 For **Linux**](docs/DockerizingArcGISServerForLinux.md) (avoiding **~$50K/year** Kubernetes licensing)
-  - [**State-of-Art/Gov. Tech**]-💧Water Resources Planning-[Integrated Network of Scientific Information & GeoHydrologic Tools](https://nednr.nebraska.gov/insight/)
-  - [Lab Project]-Enviromental Planning🏫-A **Mobile GIS** App For Environmental Data Collection-[YouTube](https://youtube.com/shorts/Gt--0rIEpqg?si=ea1OCwAmG3g33REO)
-  - [Lab Project]-Enviromental Planning🏫-Volunteered Geographic Information (**VGI**) Website-[YouTube](https://www.youtube.com/watch?v=IKSWJbKdrSA)
+  - How to Run **ArcGIS Server** Anywhere: **macOS** and **Unsupported Linux** with Containers { Tutorials available soon!!! }
+  - No **$50K/year** Kubernetes licensing needed - [Dockerize **ArcGIS Enterprise Server** 10.0 SP5 For **Linux**](docs/DockerizingArcGISServerForLinux.md)
+  - **State-of-Art/Gov. Tech** - [Integrated Network of Scientific Information & GeoHydrologic Tools](https://nednr.nebraska.gov/insight/)
+  - Lab Project - A **Mobile GIS** App For Environmental Data Collection - [YouTube](https://youtube.com/shorts/Gt--0rIEpqg?si=ea1OCwAmG3g33REO)
+  - Lab Project - Volunteered Geographic Information (**VGI**) Website - [YouTube](https://www.youtube.com/watch?v=IKSWJbKdrSA)
   
 Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without breaking the frontend:
 
-  - [Reference]-[How to make **GeoServer** mimick the **ArcGIS Server Restful API**](https://docs.geoserver.org/main/en/user/community/gsr/index.html)
-  - [Reference]-[Letting **GeoServer** to use the **ESRI's Geodatabase**](https://docs.geoserver.org/2.19.x/en/user/community/arcsde/index.html)
+  - Reference - [How to make **GeoServer** mimick the **ArcGIS Server Restful API**](https://docs.geoserver.org/main/en/user/community/gsr/index.html)
+  - Reference - [Letting **GeoServer** to use the **ESRI's Geodatabase**](https://docs.geoserver.org/2.19.x/en/user/community/arcsde/index.html)
 
 ---
 
 ### [](#header-3) **OpenSource Cloud Native Geospatial Platform - GeoServer** <small>(*If budget is your consideration......*)</small> 🙁
 <small>Tech Stack: **GeoServer**, **PostgresSQL/PostGIS**, **Flask**, **Apache Cordova**, **OpenLayers**, **HTML5/CSS3**</small>
 
-  - [Dockerize **GeoServer** with **GDAL**/**Vector Tiles** plugins and using **GeoMesa** datastore](docs/GeomesaMac.md)
-  - One of alternatives to **ArcGIS Enterprise** - [Dockerize **Geoserver** with **GDAL**/**Vector Tiles** plugins](docs/GeoServer.md)
-  - [Accessing **GeoTrellis** image server and dynamic tile stitching](docs/Geotrellis.md)  
-  - Online **Viewshed** App (**3D trajectory analysis**) - **ESRI** offers this capability via **Spatial/3D Analyst** (**~$650/year**) - [YouTube](https://www.youtube.com/watch?v=OkvwTfUE9yc)
+  - **ArcGIS Enterprise** alternative (**Apache Accumulo**) - [Dockerize **GeoServer** with **GDAL**/**Vector Tiles**/**GeoMesa** plugins](docs/GeomesaMac.md)
+  - **ArcGIS Enterprise** alternative - [Dockerize **Geoserver** with **GDAL**/**Vector Tiles** plugins](docs/GeoServer.md)
+  - **Imager Server** alternative -[Accessing **GeoTrellis** image server and dynamic tile stitching](docs/Geotrellis.md)  
+  - **ESRI** offers this capability via **Spatial/3D Analyst** (**~$650/year**) - Interactive **Viewshed** App (**3D trajectory analysis**) - [YouTube](https://www.youtube.com/watch?v=OkvwTfUE9yc)
   - Map Visualization Using **GeoServer** and **OpenLayers** - [YouTube](https://www.youtube.com/watch?v=bAyy-3kzrWs)
   - A **Mobile GIS** App By **AngularJS** - [YouTube](https://www.youtube.com/watch?v=FDTTBfp-4wE)
   - Map Publishing on **GeoServer** - [YouTube](https://www.youtube.com/watch?v=GUE5KSlLXWs)
@@ -71,12 +71,11 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
   - [The world's 1st RC Cassette **Planter**](docs/CassettePlanter.md)
   - [DIYMall DY-880TTL **GPS** module on **Raspiberry PI**](docs/DY880TTL.md)
   - [QMC5883L Magnet **Compass**](docs/PyQMC5883L.md)
-  - [Reference]-[Most popular routing engine - **OSRM** (**Contraction Hierarchies (CH)**, **Multi-Level Dijkstra (MLD)**)](https://github.com/Project-OSRM/osrm-backend) ([demo](http://map.project-osrm.org/))
-  - [Reference]-[Open Street Map (**OSM**) Wiki Reference](https://wiki.openstreetmap.org/wiki/Open_Source_Routing_Machine)
-  - [Reference]-[**OSRM** Project Page](https://project-osrm.org/)
-  - [Reference]-[Parallel Routing Analysis using **OSRM** and **Postgres** in **Spark**](https://github.com/UI-Research/spark-osrm)
-  - [Reference]-[**OSRM** + **H3** + **Spark** - A New Routing Estimation Method](https://careersatdoordash.com/blog/doordash-fast-travel-estimates/)
-  - [Reference]-[Alternative Routing Engine besides **pgRouting** and **OSRM** - the **"Neo4J"**](https://neo4j.com/blog/developer/routing-web-app-neo4j-openstreetmap-leafletjs/)
+
+Other popular routing methods:
+
+  - Reference - [Parallel Routing Analysis using **OSRM** and **Postgres** in **Spark**](https://github.com/UI-Research/spark-osrm)
+  - Reference - [Alternative Routing Engine besides **pgRouting** and **OSRM** - the **"Neo4J"**](https://neo4j.com/blog/developer/routing-web-app-neo4j-openstreetmap-leafletjs/)
 
 ---
   
@@ -115,6 +114,17 @@ For future road map, in the next few years......
 
 ## [](#header-2) III. Miscellaneous works......👀
 
+### [](#header-3) **Data Visualization -  Bioinformatics** 🧬
+  - [A data science tool for grouping proteins in different pathways (build by **D3js**)](docs/ProteomicsGroupingByWeight.md)
+
+---
+  
+### [](#header-3) **Tricky Things - Cloud Linux & CI/CD Pipeline** 🥷
+  - [Programmatically setup **VNC** password](docs/VNCansible.md)
+  - [Passing local environment variables to **Kubernetes**](docs/AflaskApp.md)
+
+---
+
 ### [](#header-3) **Random Geospatial Works & Self Exploration** 🏞️
   - How to Add BaseMap in **QGIS** - [YouTube](https://www.youtube.com/watch?v=4JESmOrHq5M)
   - [A budget build eGPU on Linux for **Tensorflow**, **PyTorch** development](docs/LinuxGPU.md)
@@ -122,19 +132,10 @@ For future road map, in the next few years......
 
 ---
 
-### [](#header-3) **Data Visualization -  Bioinformatics** 🧬
-  - [A data science tool for grouping proteins in different pathways (build by **D3js**)](docs/ProteomicsGroupingByWeight.md)
-
----
-
 ### [](#header-3) **Motion Pictures - Urban Planning & Architecture** 🌆
-  - [Lab Project] - Cornhusker Corridor LiNK to LNK Plan 2013 - [YouTube](https://www.youtube.com/watch?v=8Mej2ZBo0wM)
-
----
-  
-### [](#header-3) **Tricky Things - Cloud Linux & CI/CD Pipeline** 🥷
-  - [Programmatically setup **VNC** password](docs/VNCansible.md)
-  - [Passing local environment variables to **Kubernetes**](docs/AflaskApp.md)
+  - Lab Project - Cornhusker Corridor LiNK to LNK Plan 2013 - [YouTube](https://www.youtube.com/watch?v=8Mej2ZBo0wM)
+  - Lab Project - Trailer 3 for Lincoln Cornhusker Highway Airport Corridor Plan Project - [YouTube](https://www.youtube.com/watch?v=P8y57_JhYes)
+  - Lab Project - Trailer No.2 for CORNHUSKER HWY CORRIDOR LNK - [YouTube](https://www.youtube.com/watch?v=hJK3bABDY_0)
 
 ---
 
