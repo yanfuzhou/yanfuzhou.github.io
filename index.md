@@ -23,18 +23,14 @@ layout: yanfu
 
 ### [](#header-3) **ESRI's Geospatial Platform - ArcGIS Enterprise Server** <small>(*If budget 💰 isn't your consideration......*)</small> 😊
 
-<small>Tech Stack:  **ArcGIS Server**, **SQL Server**, **ArcGIS Javascripts API**, **ArcGIS SDK for iOS/Android**, **Apache Cordova**, **C3.js**, **HTML5/CSS3**</small>
+<small>Tech Stack:  **ArcGIS Server**, **ArcGIS Online**, **SQL Server**, **ArcGIS Javascripts API**, **ArcGIS SDK for iOS/Android**, **Apache Cordova**, **C3.js**, **HTML5/CSS3**</small>
 
   - How to Run **ArcGIS Server** Anywhere: **macOS** and **Unsupported Linux** with Containers { Tutorials available soon!!! }
   - No **$50K/year** Kubernetes licensing needed - [Dockerize **ArcGIS Enterprise Server** 10.0 SP5 For **Linux**](docs/DockerizingArcGISServerForLinux.md)
   - **State-of-Art/Gov. Tech** - [Integrated Network of Scientific Information & GeoHydrologic Tools](https://nednr.nebraska.gov/insight/)
   - Lab Project - A **Mobile GIS** App For Environmental Data Collection - [YouTube](https://youtube.com/shorts/Gt--0rIEpqg?si=ea1OCwAmG3g33REO)
   - Lab Project - Volunteered Geographic Information (**VGI**) Website - [YouTube](https://www.youtube.com/watch?v=IKSWJbKdrSA)
-  
-Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without breaking the frontend:
-
-  - Reference - [How to make **GeoServer** mimick the **ArcGIS Server Restful API**](https://docs.geoserver.org/main/en/user/community/gsr/index.html)
-  - Reference - [Letting **GeoServer** to use the **ESRI's Geodatabase**](https://docs.geoserver.org/2.19.x/en/user/community/arcsde/index.html)
+  - Lab Project - [All the **ArcGIS** based **Mobile** Apps developed in the past](docs/ArcGISMobileApps.md)
 
 ---
 
@@ -43,11 +39,16 @@ Potential ways for migrate from ArcGIS Enterprise Server to GeoServer without br
 
   - **ArcGIS Enterprise** alternative (**Apache Accumulo**) - [Dockerize **GeoServer** with **GDAL**/**Vector Tiles**/**GeoMesa** plugins](docs/GeomesaMac.md)
   - **ArcGIS Enterprise** alternative - [Dockerize **Geoserver** with **GDAL**/**Vector Tiles** plugins](docs/GeoServer.md)
-  - **Imager Server** alternative -[Accessing **GeoTrellis** image server and dynamic tile stitching](docs/Geotrellis.md)  
+  - **Imager Server** alternative - [Accessing **GeoTrellis** image server and dynamic tile stitching](docs/Geotrellis.md)  
   - **ESRI** offers this capability via **Spatial/3D Analyst** (**~$650/year**) - Interactive **Viewshed** App (**3D trajectory analysis**) - [YouTube](https://www.youtube.com/watch?v=OkvwTfUE9yc)
   - Map Visualization Using **GeoServer** and **OpenLayers** - [YouTube](https://www.youtube.com/watch?v=bAyy-3kzrWs)
   - A **Mobile GIS** App By **AngularJS** - [YouTube](https://www.youtube.com/watch?v=FDTTBfp-4wE)
   - Map Publishing on **GeoServer** - [YouTube](https://www.youtube.com/watch?v=GUE5KSlLXWs)
+
+Potential ways for migrate from **ArcGIS Server** to **GeoServer** without breaking the frontend:
+
+  - Reference - [How to make **GeoServer** mimick the **ArcGIS Server Restful API**](https://docs.geoserver.org/main/en/user/community/gsr/index.html)
+  - Reference - [Letting **GeoServer** to use the **ESRI's Geodatabase**](https://docs.geoserver.org/2.19.x/en/user/community/arcsde/index.html)
 
 ---
 
