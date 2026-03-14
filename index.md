@@ -27,7 +27,8 @@ layout: yanfu
 
   - How to Run **ArcGIS Server** Anywhere: **macOS** and **Unsupported Linux** with Containers { Tutorials available soon!!! }
   - No Kubernetes licensing (**$50K/year**) needed - [Dockerize **ArcGIS Enterprise Server** 10.0 SP5 For **Linux**](docs/DockerizingArcGISServerForLinux.md)
-  - **State-of-Art/Gov. Tech** - [Integrated Network of Scientific Information & GeoHydrologic Tools](https://nednr.nebraska.gov/insight/)
+  - **State-of-Art/Gov. Tech** - INSIGHT: [Integrated Network of Scientific Information & GeoHydrologic Tools](https://nednr.nebraska.gov/insight/)
+  - **State-of-Art/Gov. Tech** - The C# REST API behind the INSIGHT - [YouTube](https://www.youtube.com/watch?v=jr-OPVP8dak)
   - Lab Project - A **Mobile GIS** App For Environmental Data Collection - [YouTube](https://youtube.com/shorts/Gt--0rIEpqg?si=ea1OCwAmG3g33REO)
   - Lab Project - Volunteered Geographic Information (**VGI**) Website - [YouTube](https://www.youtube.com/watch?v=IKSWJbKdrSA)
   - Lab Project - [All the **ArcGIS** based Environmental **Mobile** Apps developed in the *Steve Jobs Era*](docs/ArcGISMobileApps.md)
