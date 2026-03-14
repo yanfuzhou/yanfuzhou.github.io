@@ -30,7 +30,7 @@ layout: yanfu
   - **State-of-Art/Gov. Tech** - [Integrated Network of Scientific Information & GeoHydrologic Tools](https://nednr.nebraska.gov/insight/)
   - Lab Project - A **Mobile GIS** App For Environmental Data Collection - [YouTube](https://youtube.com/shorts/Gt--0rIEpqg?si=ea1OCwAmG3g33REO)
   - Lab Project - Volunteered Geographic Information (**VGI**) Website - [YouTube](https://www.youtube.com/watch?v=IKSWJbKdrSA)
-  - Lab Project - [All the **ArcGIS** based **Mobile** Apps developed in the past](docs/ArcGISMobileApps.md)
+  - Lab Project - [All the **ArcGIS** based Environmental **Mobile** Apps developed in the *Steve Jobs Era*](docs/ArcGISMobileApps.md)
 
 ---
 
