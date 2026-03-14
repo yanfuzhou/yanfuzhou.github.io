@@ -26,7 +26,7 @@ layout: yanfu
 <small>Tech Stack:  **ArcGIS Server**, **ArcGIS Online**, **SQL Server**, **ArcGIS Javascripts API**, **ArcGIS SDK for iOS/Android**, **Apache Cordova**, **C3.js**, **HTML5/CSS3**</small>
 
   - How to Run **ArcGIS Server** Anywhere: **macOS** and **Unsupported Linux** with Containers { Tutorials available soon!!! }
-  - No **$50K/year** Kubernetes licensing needed - [Dockerize **ArcGIS Enterprise Server** 10.0 SP5 For **Linux**](docs/DockerizingArcGISServerForLinux.md)
+  - No Kubernetes licensing (**$50K/year**) needed - [Dockerize **ArcGIS Enterprise Server** 10.0 SP5 For **Linux**](docs/DockerizingArcGISServerForLinux.md)
   - **State-of-Art/Gov. Tech** - [Integrated Network of Scientific Information & GeoHydrologic Tools](https://nednr.nebraska.gov/insight/)
   - Lab Project - A **Mobile GIS** App For Environmental Data Collection - [YouTube](https://youtube.com/shorts/Gt--0rIEpqg?si=ea1OCwAmG3g33REO)
   - Lab Project - Volunteered Geographic Information (**VGI**) Website - [YouTube](https://www.youtube.com/watch?v=IKSWJbKdrSA)
